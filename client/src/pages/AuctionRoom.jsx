@@ -89,9 +89,10 @@ export default function AuctionRoom() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.05 }}
-            className={`player-card ${isAdmin ? '' : 'mobile-col'}`}
+            className="player-card"
+            style={{ alignItems: 'center' }}
             >
-            <div className="player-image-container">
+            <div className="player-image-container" style={{ width: '280px', height: '380px', flexShrink: 0 }}>
                 <img src={player.image} alt={player.name} />
                 {(roomState.auctionState === 'sold' || roomState.auctionState === 'unsold') && (
                 <motion.div 
@@ -108,9 +109,9 @@ export default function AuctionRoom() {
                 )}
             </div>
 
-            <div className="player-info" style={{ textAlign: isAdmin ? 'left' : 'center' }}>
+            <div className="player-info" style={{ textAlign: 'left', flex: 1 }}>
                 <div className="player-role">{player.role} • {player.nationality}</div>
-                <h1 className="player-name" style={{ fontSize: isAdmin ? '3.5rem' : '2.5rem' }}>{player.name}</h1>
+                <h1 className="player-name" style={{ fontSize: '3rem' }}>{player.name}</h1>
                 
                 <div className="player-stats" style={{ gridTemplateColumns: '1fr', marginBottom: '2rem' }}>
                     <div className="stat-box" style={{ background: 'linear-gradient(45deg, rgba(236,72,153,0.2), transparent)', maxWidth: '300px' }}>
@@ -127,7 +128,7 @@ export default function AuctionRoom() {
                 <div style={{ color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.875rem' }}>
                     Current Bid
                 </div>
-                <div className="current-bid" style={{ fontSize: isAdmin ? '4rem' : '3rem' }}>
+                <div className="current-bid" style={{ fontSize: '4rem' }}>
                     ₹{roomState.currentBid}L
                 </div>
                 <div className="highest-bidder">
@@ -183,17 +184,6 @@ export default function AuctionRoom() {
                 <button className="btn" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', padding: '0.5rem 1rem', fontSize: '0.875rem' }} onClick={() => setShowDatabase(true)}>
                   <Database size={16} /> Players
                 </button>
-                <button className="btn" style={{ background: 'rgba(255,255,255,0.1)', color: 'white', padding: '0.5rem 1rem', fontSize: '0.875rem' }} onClick={() => setViewingSquad(currentUser)}>
-                  <Users size={16} /> My Squad
-                </button>
-                {currentUser && (
-                    <div>
-                        <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>PURSE</div>
-                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--accent-gold)' }}>
-                        ₹{currentUser.budget}L
-                        </div>
-                    </div>
-                )}
              </div>
           )}
           {isAdmin && (
@@ -206,6 +196,35 @@ export default function AuctionRoom() {
                 </button>
              </div>
           )}
+        </div>
+
+        {/* Horizontal Team Purses Bar */}
+        <div style={{ display: 'flex', gap: '1rem', overflowX: 'auto', padding: '0.75rem 2rem', background: 'rgba(0,0,0,0.3)', borderBottom: '1px solid rgba(255,255,255,0.05)' }} className="hide-scrollbar">
+           {Object.values(roomState.users).filter(u => u.teamName).map(teamUser => (
+              <div 
+                 key={teamUser.id} 
+                 onClick={() => setViewingSquad(teamUser)}
+                 style={{ 
+                     cursor: 'pointer', 
+                     background: teamUser.id === currentUser?.id ? 'var(--accent-gold)' : 'rgba(255,255,255,0.1)', 
+                     color: teamUser.id === currentUser?.id ? 'black' : 'white', 
+                     padding: '0.5rem 1rem', 
+                     borderRadius: '50px', 
+                     whiteSpace: 'nowrap', 
+                     display: 'flex', 
+                     alignItems: 'center', 
+                     gap: '0.5rem', 
+                     fontWeight: 'bold',
+                     border: teamUser.id === currentUser?.id ? '2px solid white' : '1px solid rgba(255,255,255,0.2)',
+                     transition: 'transform 0.2s'
+                 }}
+                 onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                 onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                 title={`View ${teamUser.teamName} Squad`}
+              >
+                 {teamUser.teamName}: ₹{teamUser.budget}L
+              </div>
+           ))}
         </div>
 
         {/* Admin Dashboard Controls */}
