@@ -247,15 +247,24 @@ h1, h2, h3, h4, h5, h6 {
 /* Auction Room */
 .auction-layout {
   display: grid;
-  grid-template-columns: 3fr 1fr;
   gap: 2rem;
   flex: 1;
+  align-items: start;
+}
+
+.auction-layout.admin-layout {
+  grid-template-columns: 3fr 1fr;
+}
+
+.auction-layout:not(.admin-layout) {
+  grid-template-columns: 1fr;
 }
 
 .main-stage {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  min-width: 0;
 }
 
 .player-card {

@@ -229,10 +229,10 @@ export default function AuctionRoom() {
           </motion.div>
         )}
       </AnimatePresence>
-      <div className={`auction-layout ${isAdmin ? '' : 'mobile-layout'}`} style={{ display: 'flex', flexDirection: isAdmin ? 'row' : 'column' }}>
+      <div className={`auction-layout ${isAdmin ? 'admin-layout' : 'mobile-layout'}`}>
       
       {/* Main Column */}
-      <div className="main-stage" style={{ flex: isAdmin ? 3 : 1 }}>
+      <div className="main-stage">
         <div className="glass-panel header-row" style={{ padding: '1rem 2rem' }}>
           <div>
             <h2 style={{ fontSize: '1.5rem', margin: 0 }}>IPL AUCTION</h2>
