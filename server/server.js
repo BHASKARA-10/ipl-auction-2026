@@ -236,6 +236,14 @@ io.on('connection', (socket) => {
     }
   });
 
+  // Admin sends a note to everyone
+  socket.on('sendAdminNote', ({ roomId, note }) => {
+      const room = rooms[roomId];
+      if (room && room.admin.id === socket.id) {
+          io.to(roomId).emit('adminNote', note);
+      }
+  });
+
   socket.on('disconnect', () => {
     console.log('User disconnected:', socket.id);
     for (const roomId in rooms) {

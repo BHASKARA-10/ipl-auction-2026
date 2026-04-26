@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { socket } from '../socket';
-import { Gavel, Clock, Users, X, Check, Database, Trophy, Star } from 'lucide-react';
+import { Gavel, Clock, Users, X, Check, Database, Trophy, Star, AlertCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function AuctionRoom() {
@@ -16,6 +16,8 @@ export default function AuctionRoom() {
   const [showDatabase, setShowDatabase] = useState(false);
   const [viewingSquad, setViewingSquad] = useState(null);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [adminNoteInput, setAdminNoteInput] = useState('');
+  const [activeNote, setActiveNote] = useState('');
 
   useEffect(() => {
     if (!roomState) {
@@ -34,9 +36,15 @@ export default function AuctionRoom() {
       setTimer(time);
     });
 
+    socket.on('adminNote', (note) => {
+      setActiveNote(note);
+      setTimeout(() => setActiveNote(''), 8000);
+    });
+
     return () => {
       socket.off('roomUpdated');
       socket.off('timerUpdate');
+      socket.off('adminNote');
     };
   }, [navigate, roomState, role]);
 
@@ -51,6 +59,36 @@ export default function AuctionRoom() {
   const handleNextPlayer = () => { socket.emit('nextPlayer', { roomId, category: selectedCategory }); };
   const handleSell = () => { socket.emit('sellPlayer', { roomId }); };
   const handleUnsold = () => { socket.emit('unsoldPlayer', { roomId }); };
+  const handleSendNote = () => {
+      if (adminNoteInput.trim()) {
+          socket.emit('sendAdminNote', { roomId, note: adminNoteInput.trim() });
+          setAdminNoteInput('');
+      }
+  };
+
+  const playTickSound = () => {
+      try {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (!AudioContext) return;
+          const ctx = new AudioContext();
+          const osc = ctx.createOscillator();
+          const gainNode = ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(880, ctx.currentTime);
+          gainNode.gain.setValueAtTime(0.5, ctx.currentTime);
+          gainNode.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.1);
+          osc.connect(gainNode);
+          gainNode.connect(ctx.destination);
+          osc.start();
+          osc.stop(ctx.currentTime + 0.1);
+      } catch(e){}
+  };
+
+  useEffect(() => {
+      if (roomState && roomState.auctionState === 'bidding' && timer <= 3 && timer > 0) {
+          playTickSound();
+      }
+  }, [timer, roomState?.auctionState]);
 
   // --- Calculated Values ---
   const currentBidderName = roomState.currentBidder ? roomState.users[roomState.currentBidder]?.teamName : 'None';
@@ -170,7 +208,28 @@ export default function AuctionRoom() {
   );
 
   return (
-    <div className={`auction-layout ${isAdmin ? '' : 'mobile-layout'}`} style={{ display: 'flex', flexDirection: isAdmin ? 'row' : 'column' }}>
+    <>
+      <AnimatePresence>
+        {activeNote && (
+          <motion.div 
+            initial={{ y: -100, opacity: 0, x: '-50%' }}
+            animate={{ y: 0, opacity: 1, x: '-50%' }}
+            exit={{ y: -100, opacity: 0, x: '-50%' }}
+            style={{
+                position: 'fixed', top: '2rem', left: '50%',
+                background: 'linear-gradient(45deg, var(--accent-red), var(--accent-pink))',
+                padding: '1rem 2rem', borderRadius: '50px', zIndex: 9999,
+                fontWeight: 'bold', fontSize: '1.25rem', color: 'white',
+                boxShadow: '0 10px 30px rgba(236,72,153,0.5)',
+                border: '2px solid white', display: 'flex', alignItems: 'center', gap: '0.75rem',
+                textTransform: 'uppercase', letterSpacing: '1px'
+            }}
+          >
+            <AlertCircle size={24} /> {activeNote}
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div className={`auction-layout ${isAdmin ? '' : 'mobile-layout'}`} style={{ display: 'flex', flexDirection: isAdmin ? 'row' : 'column' }}>
       
       {/* Main Column */}
       <div className="main-stage" style={{ flex: isAdmin ? 3 : 1 }}>
@@ -235,14 +294,26 @@ export default function AuctionRoom() {
                     <button 
                         key={cat}
                         className={`btn ${selectedCategory === cat ? 'btn-primary' : ''}`}
-                        style={{ background: selectedCategory !== cat ? 'rgba(255,255,255,0.1)' : '' }}
+                        style={{ background: selectedCategory !== cat ? 'rgba(255,255,255,0.1)' : '', padding: '0.5rem 1rem', fontSize: '1rem' }}
                         onClick={() => setSelectedCategory(cat)}
                     >
                         {cat} ({roomState.categories[cat]?.length || 0})
                     </button>
                 ))}
                 
-                <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem' }}>
+                <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                    <div style={{ display: 'flex', background: 'rgba(0,0,0,0.5)', borderRadius: '8px', padding: '0.25rem', border: '1px solid rgba(255,255,255,0.1)', marginRight: '1rem' }}>
+                        <input 
+                            type="text" 
+                            placeholder="Broadcast Note..." 
+                            value={adminNoteInput}
+                            onChange={(e) => setAdminNoteInput(e.target.value)}
+                            onKeyDown={(e) => { if(e.key === 'Enter') handleSendNote(); }}
+                            style={{ background: 'transparent', border: 'none', color: 'white', padding: '0.5rem', outline: 'none', width: '200px' }}
+                        />
+                        <button onClick={handleSendNote} style={{ background: 'var(--accent-pink)', border: 'none', borderRadius: '4px', padding: '0 1rem', color: 'white', cursor: 'pointer', fontWeight: 'bold' }}>SEND</button>
+                    </div>
+
                     <button className="btn btn-gold" onClick={handleNextPlayer}>
                         Next {selectedCategory}
                     </button>
@@ -326,6 +397,7 @@ export default function AuctionRoom() {
           />
       )}
     </div>
+    </>
   );
 }
 
