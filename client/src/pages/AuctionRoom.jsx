@@ -92,12 +92,12 @@ export default function AuctionRoom() {
             className="player-card"
             style={{ alignItems: 'center' }}
             >
-            <div className="player-image-container" style={{ width: '280px', height: '380px', flexShrink: 0 }}>
+            <div className="player-image-container" style={{ flexShrink: 0 }}>
                 <img src={player.image} alt={player.name} />
                 {(roomState.auctionState === 'sold' || roomState.auctionState === 'unsold') && (
                 <motion.div 
-                    initial={{ scale: 3, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
+                    initial={{ scale: 3, opacity: 0, x: "-50%", y: "-50%", rotate: -15 }}
+                    animate={{ scale: 1, opacity: 1, x: "-50%", y: "-50%", rotate: -15 }}
                     className="sold-stamp"
                     style={{ 
                     color: roomState.auctionState === 'sold' ? 'var(--accent-red)' : '#6b7280',
