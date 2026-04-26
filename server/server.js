@@ -90,11 +90,35 @@ io.on('connection', (socket) => {
   socket.on('joinRoom', ({ roomId, userName, teamName }) => {
     const room = rooms[roomId];
     if (room) {
-      // First come, first serve: Check if team is already taken
-      const isTeamTaken = Object.values(room.users).some(u => u.teamName === teamName);
-      if (isTeamTaken) {
-        socket.emit('error', `${teamName} is already taken in this room. Please select another team.`);
-        return;
+      // Check if team already exists
+      const existingTeamId = Object.keys(room.users).find(id => room.users[id].teamName === teamName);
+      
+      if (existingTeamId) {
+        const existingUser = room.users[existingTeamId];
+        if (existingUser.connected === false) {
+           // Reclaim the disconnected team
+           existingUser.id = socket.id;
+           existingUser.connected = true;
+           existingUser.name = userName;
+           
+           // Move user to new socket ID key
+           room.users[socket.id] = existingUser;
+           delete room.users[existingTeamId];
+           
+           // Update current bidder reference if they were the highest bidder
+           if (room.currentBidder === existingTeamId) {
+               room.currentBidder = socket.id;
+           }
+           
+           socket.join(roomId);
+           io.to(roomId).emit('roomUpdated', room);
+           io.to(roomId).emit('logMessage', `${teamName} reconnected to the room.`);
+           socket.emit('joinedRoom', { roomId, roomState: room });
+           return;
+        } else {
+           socket.emit('error', `${teamName} is already taken and currently active in this room.`);
+           return;
+        }
       }
 
       room.users[socket.id] = {
@@ -104,7 +128,8 @@ io.on('connection', (socket) => {
         budget: room.rules.budget,
         squad: [],
         playingXI: [],
-        foreignCount: 0
+        foreignCount: 0,
+        connected: true
       };
       socket.join(roomId);
       
@@ -119,7 +144,9 @@ io.on('connection', (socket) => {
   socket.on('checkRoom', (roomId) => {
     const room = rooms[roomId];
     if (room) {
-      const takenTeams = Object.values(room.users).map(u => u.teamName);
+      const takenTeams = Object.values(room.users)
+          .filter(u => u.connected !== false)
+          .map(u => u.teamName);
       socket.emit('roomStatus', { takenTeams });
     } else {
       socket.emit('roomStatus', { takenTeams: [] });
@@ -214,14 +241,16 @@ io.on('connection', (socket) => {
     for (const roomId in rooms) {
       const room = rooms[roomId];
       if (room.admin.id === socket.id) {
-          // Admin left
-          delete rooms[roomId];
-          io.to(roomId).emit('error', 'Admin disconnected. Room closed.');
+          // Admin left, keep room alive but mark admin as disconnected
+          room.admin.connected = false;
+          io.to(roomId).emit('logMessage', 'Admin disconnected. Waiting for admin to reconnect...');
       } else if (room.users[socket.id]) {
         const userName = room.users[socket.id].teamName;
-        delete room.users[socket.id];
+        room.users[socket.id].connected = false;
+        // We no longer delete the user so they can rejoin
+        // delete room.users[socket.id];
         io.to(roomId).emit('roomUpdated', room);
-        io.to(roomId).emit('logMessage', `${userName} left the room.`);
+        io.to(roomId).emit('logMessage', `${userName} disconnected.`);
       }
     }
   });
