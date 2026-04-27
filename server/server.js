@@ -58,7 +58,8 @@ io.on('connection', (socket) => {
         'Batter': [...playersByCategory['Batter']],
         'Bowler': [...playersByCategory['Bowler']],
         'All-Rounder': [...playersByCategory['All-Rounder']],
-        'Wicket Keeper': [...playersByCategory['Wicket Keeper']]
+        'Wicket Keeper': [...playersByCategory['Wicket Keeper']],
+        'Unsold': []
     };
 
     rooms[roomId] = {
@@ -153,6 +154,17 @@ io.on('connection', (socket) => {
     }
   });
 
+  socket.on('adminRejoin', ({ roomId }) => {
+      const room = rooms[roomId];
+      if (room && room.admin.connected === false) {
+          room.admin.id = socket.id;
+          room.admin.connected = true;
+          socket.join(roomId);
+          io.to(roomId).emit('roomUpdated', room);
+          io.to(roomId).emit('logMessage', 'Admin has reconnected to the room.');
+      }
+  });
+
   // Admin sets active category and loads next player
   socket.on('nextPlayer', ({ roomId, category }) => {
     const room = rooms[roomId];
@@ -231,6 +243,9 @@ io.on('connection', (socket) => {
             room.allPlayersStatus[pIndex].status = 'unsold';
         }
 
+        // Add to Unsold category pool
+        room.categories['Unsold'].push(room.currentPlayer);
+
         io.to(roomId).emit('roomUpdated', room);
         io.to(roomId).emit('logMessage', `${room.currentPlayer.name} remains UNSOLD.`);
     }
@@ -252,21 +267,11 @@ io.on('connection', (socket) => {
       }
   });
 
-  socket.on('recallUnsold', ({ roomId }) => {
+  socket.on('updatePlayingXI', ({ roomId, playingXI }) => {
       const room = rooms[roomId];
-      if (room && room.admin.id === socket.id) {
-          let count = 0;
-          room.allPlayersStatus.forEach(p => {
-              if (p.status === 'unsold') {
-                  p.status = 'upcoming';
-                  if (room.categories[p.role]) {
-                      room.categories[p.role].push(p);
-                  }
-                  count++;
-              }
-          });
+      if (room && room.users[socket.id]) {
+          room.users[socket.id].playingXI = playingXI;
           io.to(roomId).emit('roomUpdated', room);
-          io.to(roomId).emit('logMessage', `Admin recalled ${count} unsold players back to the auction pool!`);
       }
   });
 
@@ -327,6 +332,9 @@ io.on('connection', (socket) => {
         if(pIndex !== -1) {
             room.allPlayersStatus[pIndex].status = 'unsold';
         }
+
+        // Add to Unsold category pool
+        room.categories['Unsold'].push(player);
 
         io.to(roomId).emit('roomUpdated', room);
         io.to(roomId).emit('logMessage', `${player.name} remains UNSOLD.`);

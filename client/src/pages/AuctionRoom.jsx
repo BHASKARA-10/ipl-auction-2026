@@ -36,6 +36,15 @@ export default function AuctionRoom() {
       setTimer(time);
     });
 
+    const handleConnect = () => {
+        if (role === 'team' && currentUser) {
+            socket.emit('joinRoom', { roomId, userName: currentUser.name, teamName: currentUser.teamName });
+        } else if (role === 'admin') {
+            socket.emit('adminRejoin', { roomId });
+        }
+    };
+    socket.on('connect', handleConnect);
+
     socket.on('adminNote', (note) => {
       setActiveNote(note);
       setTimeout(() => setActiveNote(''), 8000);
@@ -45,8 +54,9 @@ export default function AuctionRoom() {
       socket.off('roomUpdated');
       socket.off('timerUpdate');
       socket.off('adminNote');
+      socket.off('connect', handleConnect);
     };
-  }, [navigate, roomState, role]);
+  }, [navigate, roomState, role, currentUser, roomId]);
 
   if (!roomState) return <div>Loading...</div>;
 
@@ -299,9 +309,9 @@ export default function AuctionRoom() {
 
         {/* Admin Dashboard Controls */}
         {isAdmin && (
-            <div className="glass-panel" style={{ display: 'flex', gap: '1rem', alignItems: 'center', padding: '1rem 2rem' }}>
+            <div className="glass-panel" style={{ display: 'flex', gap: '1rem', alignItems: 'center', padding: '1rem 2rem', flexWrap: 'wrap' }}>
                 <div style={{ fontWeight: 'bold' }}>Categories:</div>
-                {['Batter', 'Bowler', 'All-Rounder', 'Wicket Keeper'].map(cat => (
+                {['Batter', 'Bowler', 'All-Rounder', 'Wicket Keeper', 'Unsold'].map(cat => (
                     <button 
                         key={cat}
                         className={`btn ${selectedCategory === cat ? 'btn-primary' : ''}`}
@@ -312,12 +322,9 @@ export default function AuctionRoom() {
                     </button>
                 ))}
                 
-                <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
                     <button className="btn btn-gold" onClick={handleNextPlayer}>
                         Next {selectedCategory}
-                    </button>
-                    <button className="btn" style={{ background: 'var(--accent-cyan)', color: 'white' }} onClick={() => socket.emit('recallUnsold', { roomId })}>
-                        Recall Unsold
                     </button>
                     {roomState.auctionState === 'bidding' && (
                         <>

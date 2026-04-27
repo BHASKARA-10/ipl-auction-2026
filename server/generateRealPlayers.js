@@ -109,7 +109,7 @@ async function generate() {
 
         // Fallback generic silhouette if completely unfound
         if (!imageUrl) {
-            imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png';
+            imageUrl = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E";
         }
 
         let bp = fp.name === "Virat Kohli" || fp.name === "MS Dhoni" || fp.name === "Pat Cummins" || fp.name === "Mitchell Starc" ? 200 : 100;
@@ -140,7 +140,7 @@ async function generate() {
         
         const roles = ['Batter', 'Bowler', 'All-Rounder', 'Wicket Keeper'];
         const role = roles[Math.floor(Math.random() * roles.length)];
-        const imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png';
+        const imageUrl = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E";
 
         players.push({
             id: idCounter++,
