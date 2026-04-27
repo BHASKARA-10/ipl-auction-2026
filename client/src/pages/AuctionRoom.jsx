@@ -73,9 +73,10 @@ export default function AuctionRoom() {
           const ctx = new AudioContext();
           const osc = ctx.createOscillator();
           const gainNode = ctx.createGain();
-          osc.type = 'triangle';
-          osc.frequency.setValueAtTime(880, ctx.currentTime);
-          gainNode.gain.setValueAtTime(0.5, ctx.currentTime);
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(600, ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.1);
+          gainNode.gain.setValueAtTime(0.3, ctx.currentTime);
           gainNode.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.1);
           osc.connect(gainNode);
           gainNode.connect(ctx.destination);
@@ -212,16 +213,16 @@ export default function AuctionRoom() {
       <AnimatePresence>
         {activeNote && (
           <motion.div 
-            initial={{ y: -100, opacity: 0, x: '-50%' }}
-            animate={{ y: 0, opacity: 1, x: '-50%' }}
-            exit={{ y: -100, opacity: 0, x: '-50%' }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -100, opacity: 0 }}
             style={{
-                position: 'fixed', top: '2rem', left: '50%',
+                position: 'fixed', top: 0, left: 0, right: 0,
                 background: 'linear-gradient(45deg, var(--accent-red), var(--accent-pink))',
-                padding: '1rem 2rem', borderRadius: '50px', zIndex: 9999,
+                padding: '0.75rem 2rem', zIndex: 9999,
                 fontWeight: 'bold', fontSize: '1.25rem', color: 'white',
-                boxShadow: '0 10px 30px rgba(236,72,153,0.5)',
-                border: '2px solid white', display: 'flex', alignItems: 'center', gap: '0.75rem',
+                boxShadow: '0 4px 20px rgba(236,72,153,0.5)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.75rem',
                 textTransform: 'uppercase', letterSpacing: '1px'
             }}
           >
@@ -505,7 +506,25 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
         socket.emit('updatePlayingXI', { roomId, playingXI: newXI });
     }
 
-    const renderPlayerMini = (p, from) => (
+    const movePlayerUp = (index) => {
+        if (index > 0) {
+            const newXI = [...playingXI];
+            [newXI[index - 1], newXI[index]] = [newXI[index], newXI[index - 1]];
+            setPlayingXI(newXI);
+            socket.emit('updatePlayingXI', { roomId, playingXI: newXI });
+        }
+    };
+
+    const movePlayerDown = (index) => {
+        if (index < playingXI.length - 1) {
+            const newXI = [...playingXI];
+            [newXI[index + 1], newXI[index]] = [newXI[index], newXI[index + 1]];
+            setPlayingXI(newXI);
+            socket.emit('updatePlayingXI', { roomId, playingXI: newXI });
+        }
+    };
+
+    const renderPlayerMini = (p, from, index) => (
         <div 
             key={p.id} 
             draggable={isCurrentUser}
@@ -524,6 +543,28 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
                 <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>{p.role}</div>
             </div>
             <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)' }}>₹{p.soldPrice}L</div>
+            {from === 'XI' && isCurrentUser && (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', marginLeft: '0.5rem' }}>
+                    <button 
+                        onClick={(e) => { e.stopPropagation(); movePlayerUp(index); }} 
+                        disabled={index === 0}
+                        style={{ 
+                            background: index === 0 ? 'transparent' : 'rgba(255,255,255,0.1)', 
+                            border: 'none', color: index === 0 ? 'rgba(255,255,255,0.2)' : 'white', 
+                            cursor: index === 0 ? 'not-allowed' : 'pointer', padding: '2px 4px', borderRadius: '4px', fontSize: '10px' 
+                        }}
+                    >▲</button>
+                    <button 
+                        onClick={(e) => { e.stopPropagation(); movePlayerDown(index); }} 
+                        disabled={index === playingXI.length - 1}
+                        style={{ 
+                            background: index === playingXI.length - 1 ? 'transparent' : 'rgba(255,255,255,0.1)', 
+                            border: 'none', color: index === playingXI.length - 1 ? 'rgba(255,255,255,0.2)' : 'white', 
+                            cursor: index === playingXI.length - 1 ? 'not-allowed' : 'pointer', padding: '2px 4px', borderRadius: '4px', fontSize: '10px' 
+                        }}
+                    >▼</button>
+                </div>
+            )}
         </div>
     );
 
@@ -553,7 +594,7 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
                         </h3>
                         {playingXI.length === 0 && <div style={{ color: 'var(--text-secondary)', fontStyle: 'italic', padding: '1rem', textAlign: 'center' }}>{isCurrentUser ? "Drag players here" : "No playing XI set"}</div>}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            {playingXI.map(p => renderPlayerMini(p, 'XI'))}
+                            {playingXI.map((p, i) => renderPlayerMini(p, 'XI', i))}
                         </div>
                     </div>
 
@@ -569,7 +610,7 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
                         </h3>
                         {bench.length === 0 && <div style={{ color: 'var(--text-secondary)', fontStyle: 'italic', padding: '1rem', textAlign: 'center' }}>Bench is empty</div>}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            {bench.map(p => renderPlayerMini(p, 'Bench'))}
+                            {bench.map((p, i) => renderPlayerMini(p, 'Bench', i))}
                         </div>
                     </div>
                 </div>
@@ -648,18 +689,13 @@ function PlayerDatabaseModal({ players, onClose }) {
 
 function LogViewer({ roomId }) {
   const [logs, setLogs] = useState([]);
-  const logsEndRef = useRef(null);
 
   useEffect(() => {
     socket.on('logMessage', (msg) => {
-      setLogs(prev => [...prev, { time: new Date().toLocaleTimeString(), msg }]);
+      setLogs(prev => [{ time: new Date().toLocaleTimeString(), msg }, ...prev]);
     });
     return () => socket.off('logMessage');
   }, []);
-
-  useEffect(() => {
-    logsEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [logs]);
 
   return (
     <>
@@ -669,7 +705,6 @@ function LogViewer({ roomId }) {
           {log.msg}
         </div>
       ))}
-      <div ref={logsEndRef} />
     </>
   );
 }
