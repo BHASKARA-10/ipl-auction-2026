@@ -4,7 +4,7 @@
     "name": "Virat Kohli",
     "role": "Batter",
     "nationality": "Indian",
-    "basePrice": 150,
+    "basePrice": 200,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/500px-Virat_Kohli_in_PMO_New_Delhi.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "MS Dhoni",
     "role": "Wicket Keeper",
     "nationality": "Indian",
-    "basePrice": 150,
+    "basePrice": 200,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg/500px-MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Rohit Sharma",
     "role": "Batter",
     "nationality": "Indian",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg/500px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Hardik Pandya",
     "role": "All-Rounder",
     "nationality": "Indian",
-    "basePrice": 150,
+    "basePrice": 100,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hardik_Pandya_in_PMO_New_Delhi.jpg/500px-Hardik_Pandya_in_PMO_New_Delhi.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "name": "KL Rahul",
     "role": "Wicket Keeper",
     "nationality": "Indian",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/KL_Rahul_at_Femina_Miss_India_2018_Grand_Finale_%28cropped%29.jpg"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Suryakumar Yadav",
     "role": "Batter",
     "nationality": "Indian",
-    "basePrice": 150,
+    "basePrice": 100,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Suryakumar_Yadav_in_PMO_New_Delhi.jpg/500px-Suryakumar_Yadav_in_PMO_New_Delhi.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Shubman Gill",
     "role": "Batter",
     "nationality": "Indian",
-    "basePrice": 150,
+    "basePrice": 100,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Shubman-Gill.jpg/500px-Shubman-Gill.jpg"
   },
   {
@@ -92,35 +92,19 @@
     "name": "Mitchell Starc",
     "role": "Bowler",
     "nationality": "Overseas",
-    "basePrice": 200,
+    "basePrice": 150,
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Mitchell_Starc_2023.jpg"
   },
   {
     "id": 13,
-    "name": "Glenn Maxwell",
-    "role": "All-Rounder",
+    "name": "Jake Fraser-McGurk",
+    "role": "Batter",
     "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Glen_Maxwell_2026_%28cropped%29.jpg/500px-Glen_Maxwell_2026_%28cropped%29.jpg"
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jake_Fraser_McGurk_2024_clip.png"
   },
   {
     "id": 14,
-    "name": "David Warner",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/DAVID_WARNER_%2811704782453%29.jpg/500px-DAVID_WARNER_%2811704782453%29.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Steve Smith",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/STEVE_SMITH_%2811705303043%29.jpg/500px-STEVE_SMITH_%2811705303043%29.jpg"
-  },
-  {
-    "id": 16,
     "name": "Travis Head",
     "role": "Batter",
     "nationality": "Overseas",
@@ -128,271 +112,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Travis_Head_bowling_at_Perth_Stadium%2C_First_Test_Australia_versus_West_Indies%2C_2_December_2022_03_%28cropped%29.jpg/500px-Travis_Head_bowling_at_Perth_Stadium%2C_First_Test_Australia_versus_West_Indies%2C_2_December_2022_03_%28cropped%29.jpg"
   },
   {
-    "id": 17,
-    "name": "Kane Williamson",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Kane_Williamson_in_2019.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Trent Boult",
-    "role": "Bowler",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg/500px-2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Rachin Ravindra",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rachin_Ravindra.jpg/500px-Rachin_Ravindra.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Ben Stokes",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/3_14_Captain_Ben_%28cropped%29.jpg/500px-3_14_Captain_Ben_%28cropped%29.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Jos Buttler",
-    "role": "Wicket Keeper",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jos_Buttler_in_2023.jpg/500px-Jos_Buttler_in_2023.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Jofra Archer",
-    "role": "Bowler",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jofra_Archer_%283%29.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Jonny Bairstow",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2_05_Bairstow_out.jpg/500px-2_05_Bairstow_out.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Joe Root",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Joe_Root_HIP1487_%28cropped%29.jpg/500px-Joe_Root_HIP1487_%28cropped%29.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Kagiso Rabada",
-    "role": "Bowler",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rabada.jpg/500px-Rabada.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Quinton de Kock",
-    "role": "Wicket Keeper",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/QUINTON_DE_KOCK_%2815681398316%29.jpg/500px-QUINTON_DE_KOCK_%2815681398316%29.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Heinrich Klaasen",
-    "role": "Wicket Keeper",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 28,
-    "name": "David Miller",
-    "role": "Batter",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 29,
-    "name": "Rashid Khan",
-    "role": "Bowler",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rashid_Khan.jpg/500px-Rashid_Khan.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Sunil Narine",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sunil_Narine.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Andre Russell",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Andre_Russell_%281%29.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Nicholas Pooran",
-    "role": "Wicket Keeper",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 33,
-    "name": "Shakib Al Hasan",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Shakib_Al_Hasan_%284%29_%28cropped%29.jpg/500px-Shakib_Al_Hasan_%284%29_%28cropped%29.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Matheesha Pathirana",
-    "role": "Bowler",
-    "nationality": "Overseas",
-    "basePrice": 150,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 35,
-    "name": "Wanindu Hasaranga",
-    "role": "All-Rounder",
-    "nationality": "Overseas",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Waniya.jpg/500px-Waniya.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Shreyas Iyer",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Shreyas_Iyer_snapped_at_the_airport_%28Cropped%29.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Mohammed Shami",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg/500px-Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Mohammed Siraj",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Mohammad_Siraj_%28cropped%29.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Ishan Kishan",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ishan_Kishan.jpg/500px-Ishan_Kishan.jpg"
-  },
-  {
-    "id": 40,
-    "name": "Sanju Samson",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sanju_Samson_in_PMO_New_Delhi.jpg/500px-Sanju_Samson_in_PMO_New_Delhi.jpg"
-  },
-  {
-    "id": 41,
-    "name": "Rinku Singh",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 150,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 42,
-    "name": "Yashasvi Jaiswal",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg/500px-Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg"
-  },
-  {
-    "id": 43,
-    "name": "Arshdeep Singh",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 150,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg/500px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg"
-  },
-  {
-    "id": 44,
-    "name": "Axar Patel",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Axar_Patel_in_PMO_New_Delhi.jpg"
-  },
-  {
-    "id": 45,
-    "name": "Yuzvendra Chahal",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yuzvendra_Chahal_in_PMO_New_Delhi.jpg/500px-Yuzvendra_Chahal_in_PMO_New_Delhi.jpg"
-  },
-  {
-    "id": 46,
-    "name": "Kuldeep Yadav",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kuldeep_Yadav_in_PMO_New_Delhi.jpg/500px-Kuldeep_Yadav_in_PMO_New_Delhi.jpg"
-  },
-  {
-    "id": 47,
-    "name": "Ruturaj Gaikwad",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ruturaj_Gaikwad.jpeg"
-  },
-  {
-    "id": 48,
-    "name": "Washington Sundar",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Washington_Sundar.jpg/500px-Washington_Sundar.jpg"
-  },
-  {
-    "id": 49,
-    "name": "Ravi Ashwin",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 100,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 50,
+    "id": 15,
     "name": "Cameron Green",
     "role": "All-Rounder",
     "nationality": "Overseas",
@@ -400,31 +120,55 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg/500px-Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg"
   },
   {
-    "id": 51,
-    "name": "Marcus Stoinis",
+    "id": 16,
+    "name": "Glenn Maxwell",
     "role": "All-Rounder",
     "nationality": "Overseas",
     "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg/500px-2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Glen_Maxwell_2026_%28cropped%29.jpg/500px-Glen_Maxwell_2026_%28cropped%29.jpg"
   },
   {
-    "id": 52,
-    "name": "Josh Hazlewood",
+    "id": 17,
+    "name": "Rachin Ravindra",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rachin_Ravindra.jpg/500px-Rachin_Ravindra.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Trent Boult",
     "role": "Bowler",
     "nationality": "Overseas",
     "basePrice": 100,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2018_Josh_Hazlewood_%28cropped%29.jpg/500px-2018_Josh_Hazlewood_%28cropped%29.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg/500px-2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg"
   },
   {
-    "id": 53,
-    "name": "Mitch Marsh",
-    "role": "All-Rounder",
+    "id": 19,
+    "name": "Phil Salt",
+    "role": "Wicket Keeper",
     "nationality": "Overseas",
     "basePrice": 100,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2_02_Phil_Salt.jpg/500px-2_02_Phil_Salt.jpg"
   },
   {
-    "id": 54,
+    "id": 20,
+    "name": "Will Jacks",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/4_20_Will_Jacks.jpg/500px-4_20_Will_Jacks.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Jos Buttler",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jos_Buttler_in_2023.jpg/500px-Jos_Buttler_in_2023.jpg"
+  },
+  {
+    "id": 22,
     "name": "Sam Curran",
     "role": "All-Rounder",
     "nationality": "Overseas",
@@ -432,7 +176,271 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Prime_Minister_welcomes_the_World_Cup_winning_cricketers_%2852764650104%29_-_Sam_Curran_%28cropped%29.jpg"
   },
   {
+    "id": 23,
+    "name": "Kagiso Rabada",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rabada.jpg/500px-Rabada.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Tristan Stubbs",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 25,
+    "name": "Heinrich Klaasen",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 26,
+    "name": "Marco Jansen",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Marco_Jansen_2022.jpg/500px-Marco_Jansen_2022.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Rashid Khan",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rashid_Khan.jpg/500px-Rashid_Khan.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Sunil Narine",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sunil_Narine.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Andre Russell",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Andre_Russell_%281%29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Nicholas Pooran",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 31,
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 32,
+    "name": "Wanindu Hasaranga",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Waniya.jpg/500px-Waniya.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Riyan Parag",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 34,
+    "name": "Mayank Yadav",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 35,
+    "name": "Harshit Rana",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 36,
+    "name": "Abhishek Sharma",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 37,
+    "name": "Shreyas Iyer",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Shreyas_Iyer_snapped_at_the_airport_%28Cropped%29.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Mohammed Shami",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg/500px-Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Mohammed Siraj",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Mohammad_Siraj_%28cropped%29.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Ishan Kishan",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ishan_Kishan.jpg/500px-Ishan_Kishan.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Sanju Samson",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sanju_Samson_in_PMO_New_Delhi.jpg/500px-Sanju_Samson_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Rinku Singh",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 43,
+    "name": "Yashasvi Jaiswal",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg/500px-Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Arshdeep Singh",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg/500px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Axar Patel",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Axar_Patel_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Yuzvendra Chahal",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yuzvendra_Chahal_in_PMO_New_Delhi.jpg/500px-Yuzvendra_Chahal_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kuldeep_Yadav_in_PMO_New_Delhi.jpg/500px-Kuldeep_Yadav_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Ruturaj Gaikwad",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ruturaj_Gaikwad.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "Washington Sundar",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Washington_Sundar.jpg/500px-Washington_Sundar.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Ravi Ashwin",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 51,
+    "name": "Cameron Green",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg/500px-Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Marcus Stoinis",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg/500px-2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2018_Josh_Hazlewood_%28cropped%29.jpg/500px-2018_Josh_Hazlewood_%28cropped%29.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Mitch Marsh",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 55,
+    "name": "Sam Curran",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Prime_Minister_welcomes_the_World_Cup_winning_cricketers_%2852764650104%29_-_Sam_Curran_%28cropped%29.jpg"
+  },
+  {
+    "id": 56,
     "name": "Liam Livingstone",
     "role": "All-Rounder",
     "nationality": "Overseas",
@@ -440,15 +448,15 @@
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 56,
+    "id": 57,
     "name": "Mark Wood",
     "role": "Bowler",
     "nationality": "Overseas",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Mark_wood_bowling_boxing_day_test.jpg/500px-Mark_wood_bowling_boxing_day_test.jpg"
   },
   {
-    "id": 57,
+    "id": 58,
     "name": "Anrich Nortje",
     "role": "Bowler",
     "nationality": "Overseas",
@@ -456,7 +464,7 @@
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 58,
+    "id": 59,
     "name": "Aiden Markram",
     "role": "Batter",
     "nationality": "Overseas",
@@ -464,7 +472,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aiden_Markram_%28cropped%29.jpg/500px-Aiden_Markram_%28cropped%29.jpg"
   },
   {
-    "id": 59,
+    "id": 60,
     "name": "Marco Jansen",
     "role": "All-Rounder",
     "nationality": "Overseas",
@@ -472,15 +480,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Marco_Jansen_2022.jpg/500px-Marco_Jansen_2022.jpg"
   },
   {
-    "id": 60,
+    "id": 61,
     "name": "Rahmanullah Gurbaz",
     "role": "Wicket Keeper",
     "nationality": "Overseas",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 61,
+    "id": 62,
     "name": "Mujeeb Ur Rahman",
     "role": "Bowler",
     "nationality": "Overseas",
@@ -488,15 +496,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Mujeeb_Ur_Rahman_celebrating.jpg"
   },
   {
-    "id": 62,
+    "id": 63,
     "name": "Naveen-ul-Haq",
     "role": "Bowler",
     "nationality": "Overseas",
-    "basePrice": 150,
+    "basePrice": 100,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 63,
+    "id": 64,
     "name": "Rovman Powell",
     "role": "Batter",
     "nationality": "Overseas",
@@ -504,15 +512,15 @@
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 64,
+    "id": 65,
     "name": "Alzarri Joseph",
     "role": "Bowler",
     "nationality": "Overseas",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 65,
+    "id": 66,
     "name": "Jason Holder",
     "role": "All-Rounder",
     "nationality": "Overseas",
@@ -520,15 +528,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jason_Holder.jpg/500px-Jason_Holder.jpg"
   },
   {
-    "id": 66,
+    "id": 67,
     "name": "Maheesh Theekshana",
     "role": "Bowler",
     "nationality": "Overseas",
-    "basePrice": 100,
+    "basePrice": 150,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 67,
+    "id": 68,
     "name": "Mustafizur Rahman",
     "role": "Bowler",
     "nationality": "Overseas",
@@ -536,40 +544,32 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mustafizur_Rahman_%284%29_%28cropped%29.jpg/500px-Mustafizur_Rahman_%284%29_%28cropped%29.jpg"
   },
   {
-    "id": 68,
-    "name": "Angkrish Sharma",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
     "id": 69,
-    "name": "Ankit Sharma",
-    "role": "All-Rounder",
+    "name": "Vipraj Mehra",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 70,
-    "name": "Karun Patil",
-    "role": "All-Rounder",
+    "name": "Navdeep Shetty",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 71,
-    "name": "Raj Ghosh",
-    "role": "Wicket Keeper",
+    "name": "Ankit Sharma",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 72,
-    "name": "Vipraj Chatterjee",
+    "name": "Hrithik Rao",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -577,7 +577,7 @@
   },
   {
     "id": 73,
-    "name": "Tushar Tiwari",
+    "name": "Vijaykumar Deshmukh",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -585,47 +585,47 @@
   },
   {
     "id": 74,
-    "name": "Mohit Dutta",
-    "role": "Wicket Keeper",
+    "name": "Sai Yadav",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 75,
-    "name": "Sai Patil",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 76,
-    "name": "Mayank Banerjee",
+    "name": "Prashant Ghosh",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 77,
-    "name": "Umesh Das",
+    "id": 76,
+    "name": "Krunal Jadhav",
     "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 77,
+    "name": "Ayush Khan",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 78,
-    "name": "Prabhsimran Mukherjee",
-    "role": "All-Rounder",
+    "name": "Upendra Rathore",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 79,
-    "name": "Sameer Gupta",
+    "name": "Rohan Dutta",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -633,15 +633,15 @@
   },
   {
     "id": 80,
-    "name": "Yudhvir Chowdhury",
-    "role": "Wicket Keeper",
+    "name": "Mayank Dubey",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 81,
-    "name": "Vidwath Sharma",
+    "name": "Sameer Rajput",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -649,7 +649,7 @@
   },
   {
     "id": 82,
-    "name": "Vivrant Jain",
+    "name": "Sanvir Das",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -657,47 +657,47 @@
   },
   {
     "id": 83,
-    "name": "Ishant Sethi",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 84,
-    "name": "Mayank Mukherjee",
+    "name": "Manoj Chavan",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 85,
-    "name": "Rohan Chatterjee",
+    "id": 84,
+    "name": "Shashank Bhatia",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 86,
-    "name": "Manish Hegde",
+    "id": 85,
+    "name": "Himanshu Mukherjee",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 86,
+    "name": "Abhishek Malhotra",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 87,
-    "name": "Shashank Singh",
-    "role": "Bowler",
+    "name": "Sumit Patil",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 88,
-    "name": "Kartik Karanth",
+    "name": "Abishek Rao",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -705,31 +705,31 @@
   },
   {
     "id": 89,
-    "name": "Sanvir Kamat",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 90,
-    "name": "Sachin Shetty",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 91,
-    "name": "Yash Bhatia",
+    "name": "Aman Tripathi",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 90,
+    "name": "Vivrant Ghosh",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 91,
+    "name": "Shashank Gaikwad",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 92,
-    "name": "Kedar Shekhawat",
+    "name": "Prerak Rai",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -737,31 +737,31 @@
   },
   {
     "id": 93,
-    "name": "Naman Kadam",
-    "role": "Bowler",
+    "name": "Sumit Deshmukh",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 94,
-    "name": "Gaurav Ahuja",
-    "role": "Bowler",
+    "name": "Prerak More",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 95,
-    "name": "Naman Pawar",
-    "role": "All-Rounder",
+    "name": "Ramandeep Patil",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 96,
-    "name": "Piyush Mishra",
+    "name": "Naman Chavan",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -769,31 +769,31 @@
   },
   {
     "id": 97,
-    "name": "Ishant Nayak",
-    "role": "All-Rounder",
+    "name": "Suyash Sharma",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 98,
-    "name": "Navdeep Poojary",
-    "role": "Wicket Keeper",
+    "name": "Nishant Gowda",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 99,
-    "name": "Ishant Das",
-    "role": "Wicket Keeper",
+    "name": "Manish Karanth",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 100,
-    "name": "Piyush Jain",
+    "name": "Prabhsimran Kamat",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -801,79 +801,79 @@
   },
   {
     "id": 101,
-    "name": "Amit Rajput",
-    "role": "Batter",
+    "name": "Akash Kini",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 102,
-    "name": "Hrithik Shetty",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 103,
-    "name": "Umesh Pawar",
-    "role": "Batter",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 104,
-    "name": "Ricky Tandon",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 105,
-    "name": "Angkrish Singh",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 106,
-    "name": "Yash Verma",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 107,
-    "name": "Jaydev Das",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 108,
-    "name": "Hrithik Sethi",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 109,
-    "name": "Vipraj Naik",
+    "name": "Vivrant Singh",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 103,
+    "name": "Ankit Baliga",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 104,
+    "name": "Sameer Kamat",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 105,
+    "name": "Yash Pawar",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 106,
+    "name": "Gaurav Chauhan",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 107,
+    "name": "Shashank Kamat",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 108,
+    "name": "Yudhvir Chavan",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 109,
+    "name": "Mohsin Das",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 110,
-    "name": "Kumar Shenoy",
+    "name": "Manoj Chavan",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -881,15 +881,15 @@
   },
   {
     "id": 111,
-    "name": "Aman Gupta",
-    "role": "Wicket Keeper",
+    "name": "Hrithik Rai",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 112,
-    "name": "Akash Shenoy",
+    "name": "Aryan Chowdhury",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -897,15 +897,15 @@
   },
   {
     "id": 113,
-    "name": "Ricky Bose",
-    "role": "Bowler",
+    "name": "Deepak Rai",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 114,
-    "name": "Prabhsimran Bhatia",
+    "name": "Abishek Sethi",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -913,15 +913,15 @@
   },
   {
     "id": 115,
-    "name": "Ramandeep Khan",
-    "role": "Batter",
+    "name": "Sachin Rai",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 116,
-    "name": "Vivrant Jain",
+    "name": "Kartik Kamat",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -929,39 +929,39 @@
   },
   {
     "id": 117,
-    "name": "Vidwath Rao",
-    "role": "Bowler",
+    "name": "Manish Dubey",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 118,
-    "name": "Gaurav Das",
-    "role": "All-Rounder",
+    "name": "Mayank Shetty",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 119,
-    "name": "Darshan Menon",
-    "role": "Batter",
+    "name": "Abhishek Mehra",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 120,
-    "name": "Prerak Baliga",
-    "role": "Batter",
+    "name": "Mayank Chatterjee",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 121,
-    "name": "Mandeep Chowdhury",
+    "name": "Jaydev Chatterjee",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -969,47 +969,47 @@
   },
   {
     "id": 122,
-    "name": "Yudhvir Dutta",
-    "role": "Batter",
+    "name": "Karthik Chauhan",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 123,
-    "name": "Gaurav Chowdhury",
-    "role": "All-Rounder",
+    "name": "Vaibhav Gaikwad",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 124,
-    "name": "Raj Rathore",
-    "role": "Bowler",
+    "name": "Navdeep Pawar",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 125,
-    "name": "Anshul Baliga",
-    "role": "Bowler",
+    "name": "Vidwath More",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 126,
-    "name": "Ashutosh Reddy",
-    "role": "Bowler",
+    "name": "Saurav Shukla",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 127,
-    "name": "Ramandeep Rajput",
+    "name": "Sanvir Verma",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1017,23 +1017,23 @@
   },
   {
     "id": 128,
-    "name": "Swastik Tiwari",
-    "role": "Batter",
+    "name": "Sanvir Tiwari",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 129,
-    "name": "KS Gowda",
-    "role": "All-Rounder",
+    "name": "Raj Ahuja",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 130,
-    "name": "Yash Naik",
+    "name": "Ramandeep Iyer",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1041,39 +1041,39 @@
   },
   {
     "id": 131,
-    "name": "Mohsin Rathore",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 132,
-    "name": "Kedar Pillai",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 133,
-    "name": "Saurav Chatterjee",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 134,
-    "name": "Vidyadhar Deshmukh",
+    "name": "Arshad Malhotra",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 132,
+    "name": "Akash Dutta",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 133,
+    "name": "Abhishek Sarkar",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 134,
+    "name": "Darshan Dubey",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 135,
-    "name": "Deepak Jadhav",
+    "name": "Prakhar Shenoy",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1081,7 +1081,7 @@
   },
   {
     "id": 136,
-    "name": "Prerak Sharma",
+    "name": "Kumar Sharma",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1089,15 +1089,15 @@
   },
   {
     "id": 137,
-    "name": "Ankit Prabhu",
-    "role": "Bowler",
+    "name": "Nishant Kadam",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 138,
-    "name": "Ramandeep Kini",
+    "name": "Shashank Sen",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1105,31 +1105,31 @@
   },
   {
     "id": 139,
-    "name": "Karun Sethi",
-    "role": "Wicket Keeper",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 140,
-    "name": "Arshad Bose",
+    "name": "Sachin Naik",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 141,
-    "name": "Sameer Pawar",
+    "id": 140,
+    "name": "Yudhvir Baliga",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 141,
+    "name": "Jaydev Deshmukh",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 142,
-    "name": "Naman Kapur",
+    "name": "Aman Gupta",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1137,15 +1137,15 @@
   },
   {
     "id": 143,
-    "name": "Rohan Rai",
-    "role": "All-Rounder",
+    "name": "Navdeep Dutta",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 144,
-    "name": "Bhanu Poojary",
+    "name": "Sanvir Pillai",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1153,111 +1153,111 @@
   },
   {
     "id": 145,
-    "name": "Sameer Bose",
-    "role": "Batter",
+    "name": "Navdeep Malhotra",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 146,
-    "name": "Manav Kapur",
-    "role": "Wicket Keeper",
+    "name": "Vaibhav Patel",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 147,
-    "name": "Angkrish Jain",
-    "role": "Batter",
+    "name": "Vidwath Sen",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 148,
-    "name": "Himanshu Jain",
-    "role": "Wicket Keeper",
+    "name": "Prerak Menon",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 149,
-    "name": "Yash Ahuja",
-    "role": "Bowler",
+    "name": "Abishek Mukherjee",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 150,
-    "name": "Akash Sarkar",
-    "role": "Batter",
+    "name": "KS Gaikwad",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 151,
-    "name": "Deepak Chavan",
-    "role": "All-Rounder",
+    "name": "Mohit Nair",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 152,
-    "name": "Manoj Chopra",
-    "role": "All-Rounder",
+    "name": "Yash Bose",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 153,
-    "name": "Sachin Gaikwad",
-    "role": "Bowler",
+    "name": "Sanvir Bhat",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 154,
-    "name": "Ramandeep Chowdhury",
-    "role": "Batter",
+    "name": "Anshul Jadhav",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 155,
-    "name": "Akash Kapur",
-    "role": "Wicket Keeper",
+    "name": "Ramandeep Bhat",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 156,
-    "name": "Mayank Sarkar",
-    "role": "Bowler",
+    "name": "Sandeep More",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 157,
-    "name": "Prashant Patil",
-    "role": "Wicket Keeper",
+    "name": "Ramandeep Yadav",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 158,
-    "name": "Amit Iyer",
+    "name": "Gaurav Banerjee",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1265,15 +1265,15 @@
   },
   {
     "id": 159,
-    "name": "Jaydev Nair",
-    "role": "Batter",
+    "name": "Kedar Chatterjee",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 160,
-    "name": "Karthik Baliga",
+    "name": "Kedar Bhatia",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1281,55 +1281,55 @@
   },
   {
     "id": 161,
-    "name": "Swastik Tandon",
-    "role": "Bowler",
+    "name": "Piyush Kapur",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 162,
-    "name": "Aryan Baliga",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 163,
-    "name": "Nishant Dubey",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 164,
-    "name": "Karun Sharma",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 165,
-    "name": "Swastik Hegde",
+    "name": "Jaydev Sharma",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 166,
-    "name": "Vijaykumar Gowda",
+    "id": 163,
+    "name": "Vijaykumar Khan",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 164,
+    "name": "Sumit Tiwari",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
+    "id": 165,
+    "name": "Nishant Banerjee",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 166,
+    "name": "Sachin Pawar",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 167,
-    "name": "Abishek Rao",
+    "name": "Guntash Pillai",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1337,55 +1337,55 @@
   },
   {
     "id": 168,
-    "name": "Piyush Dutta",
-    "role": "Wicket Keeper",
+    "name": "Yash Tiwari",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 169,
-    "name": "Prerak Shenoy",
-    "role": "Wicket Keeper",
+    "name": "Vijaykumar Dutta",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 170,
-    "name": "Mohsin Hegde",
-    "role": "All-Rounder",
+    "name": "Prakhar Chowdhury",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 171,
-    "name": "Akash Poojary",
-    "role": "Bowler",
+    "name": "Yash Jadhav",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 172,
-    "name": "KS Chowdhury",
-    "role": "All-Rounder",
+    "name": "Kumar Menon",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 173,
-    "name": "Ramandeep Banerjee",
-    "role": "Bowler",
+    "name": "Vaibhav Gaikwad",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 174,
-    "name": "Gaurav Tiwari",
+    "name": "Piyush Chowdhury",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1393,63 +1393,63 @@
   },
   {
     "id": 175,
-    "name": "Angkrish Gowda",
-    "role": "Batter",
+    "name": "Rohan Kumar",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 176,
-    "name": "Karn Shukla",
-    "role": "Bowler",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 177,
-    "name": "Samarth Karanth",
+    "name": "Amit Malhotra",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 178,
-    "name": "Karun Banerjee",
-    "role": "All-Rounder",
+    "id": 177,
+    "name": "Aryan More",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
-    "id": 179,
-    "name": "Naman Chopra",
+    "id": 178,
+    "name": "Ramandeep Jadhav",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 179,
+    "name": "Karn Menon",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 180,
-    "name": "Yash Bose",
-    "role": "All-Rounder",
+    "name": "Guntash Deshmukh",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 181,
-    "name": "Harshit Rao",
-    "role": "All-Rounder",
+    "name": "Prabhsimran Gowda",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 182,
-    "name": "Navdeep Das",
+    "name": "Akash Kumar",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1457,31 +1457,31 @@
   },
   {
     "id": 183,
-    "name": "Sachin Hegde",
-    "role": "Batter",
+    "name": "Nehal Baliga",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 184,
-    "name": "Ankit Yadav",
-    "role": "Bowler",
+    "name": "Tushar Kadam",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 185,
-    "name": "Vivrant Kini",
-    "role": "All-Rounder",
+    "name": "Ishant Khan",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 186,
-    "name": "Darshan Kumar",
+    "name": "Mayank Gaikwad",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1489,7 +1489,7 @@
   },
   {
     "id": 187,
-    "name": "Aman Poojary",
+    "name": "Shivalik Mukherjee",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1497,15 +1497,15 @@
   },
   {
     "id": 188,
-    "name": "Manish Hegde",
-    "role": "Bowler",
+    "name": "Akash Bose",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 189,
-    "name": "Vidyadhar Tiwari",
+    "name": "Vivrant Baliga",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1513,15 +1513,15 @@
   },
   {
     "id": 190,
-    "name": "Abishek Pillai",
-    "role": "Batter",
+    "name": "Ayush Deshmukh",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 191,
-    "name": "Yash Naik",
+    "name": "Aman Bhatia",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1529,23 +1529,23 @@
   },
   {
     "id": 192,
-    "name": "Navdeep Naik",
-    "role": "Batter",
+    "name": "Kumar Menon",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 193,
-    "name": "Samarth Singh",
-    "role": "Batter",
+    "name": "Ashutosh Nair",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 194,
-    "name": "Swastik Shekhawat",
+    "name": "Sachin Sethi",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1553,15 +1553,15 @@
   },
   {
     "id": 195,
-    "name": "Darshan Kumar",
-    "role": "Batter",
+    "name": "Aman Rai",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 196,
-    "name": "Jaydev Sen",
+    "name": "Hrithik Rathore",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1569,7 +1569,7 @@
   },
   {
     "id": 197,
-    "name": "Harshit Yadav",
+    "name": "Ramandeep Bose",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1577,23 +1577,23 @@
   },
   {
     "id": 198,
-    "name": "Siddarth Malhotra",
-    "role": "Bowler",
+    "name": "Guntash Bose",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 199,
-    "name": "Deepak Tandon",
-    "role": "Wicket Keeper",
+    "name": "Angkrish Menon",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 200,
-    "name": "Prabhsimran Sarkar",
+    "name": "Yash Naik",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1601,7 +1601,7 @@
   },
   {
     "id": 201,
-    "name": "Ramandeep Poojary",
+    "name": "Kedar Kadam",
     "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1609,39 +1609,39 @@
   },
   {
     "id": 202,
-    "name": "Krunal Patel",
-    "role": "Batter",
+    "name": "Guntash Rao",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 203,
-    "name": "Naman Sethi",
-    "role": "All-Rounder",
-    "nationality": "Indian",
-    "basePrice": 20,
-    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
-  },
-  {
-    "id": 204,
-    "name": "Vaibhav Patel",
+    "name": "Rohan Jain",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
+    "id": 204,
+    "name": "Kumar Jain",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
+  },
+  {
     "id": 205,
-    "name": "Shivalik Chowdhury",
-    "role": "All-Rounder",
+    "name": "Sanvir Rao",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 206,
-    "name": "Deepak Jadhav",
+    "name": "Ramandeep Kapur",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1649,47 +1649,47 @@
   },
   {
     "id": 207,
-    "name": "Yudhvir Ghosh",
-    "role": "Batter",
+    "name": "Tushar Verma",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 208,
-    "name": "Manav Sen",
-    "role": "Bowler",
+    "name": "Umesh Gowda",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 209,
-    "name": "Kumar Pandey",
-    "role": "All-Rounder",
+    "name": "Darshan Gowda",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 210,
-    "name": "Rohan Sen",
-    "role": "All-Rounder",
+    "name": "Mayank Jadhav",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 211,
-    "name": "Prabhsimran Pandey",
-    "role": "All-Rounder",
+    "name": "Sai Gupta",
+    "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 212,
-    "name": "Ayush Kamat",
+    "name": "Prakhar Shenoy",
     "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1697,7 +1697,7 @@
   },
   {
     "id": 213,
-    "name": "Mayank Baliga",
+    "name": "Abishek Reddy",
     "role": "Batter",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1705,39 +1705,39 @@
   },
   {
     "id": 214,
-    "name": "Shivalik Chatterjee",
-    "role": "Batter",
+    "name": "Sandeep Prabhu",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 215,
-    "name": "Manish Poojary",
-    "role": "All-Rounder",
+    "name": "Siddarth Ahuja",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 216,
-    "name": "Angkrish Kumar",
-    "role": "Batter",
+    "name": "Ashutosh Bhatia",
+    "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 217,
-    "name": "Arshad Nayak",
-    "role": "All-Rounder",
+    "name": "Sanvir Shenoy",
+    "role": "Bowler",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 218,
-    "name": "Raj Sen",
+    "name": "Mohsin Tiwari",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,
@@ -1745,15 +1745,15 @@
   },
   {
     "id": 219,
-    "name": "Aryan Iyer",
-    "role": "Wicket Keeper",
+    "name": "Mayank More",
+    "role": "All-Rounder",
     "nationality": "Indian",
     "basePrice": 20,
     "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239ca3af'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E"
   },
   {
     "id": 220,
-    "name": "Amit Shetty",
+    "name": "Mohit Yadav",
     "role": "Wicket Keeper",
     "nationality": "Indian",
     "basePrice": 20,

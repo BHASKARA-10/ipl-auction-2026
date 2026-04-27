@@ -552,23 +552,29 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
             </div>
             <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)' }}>₹{p.soldPrice}L</div>
             {from === 'XI' && isCurrentUser && (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', marginLeft: '0.5rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', gap: '8px', marginLeft: '0.5rem' }}>
                     <button 
-                        onClick={(e) => { e.stopPropagation(); movePlayerUp(index); }} 
+                        onClick={(e) => { e.preventDefault(); e.stopPropagation(); movePlayerUp(index); }} 
                         disabled={index === 0}
                         style={{ 
-                            background: index === 0 ? 'transparent' : 'rgba(255,255,255,0.1)', 
-                            border: 'none', color: index === 0 ? 'rgba(255,255,255,0.2)' : 'white', 
-                            cursor: index === 0 ? 'not-allowed' : 'pointer', padding: '2px 4px', borderRadius: '4px', fontSize: '10px' 
+                            background: index === 0 ? 'transparent' : 'rgba(255,255,255,0.15)', 
+                            border: '1px solid ' + (index === 0 ? 'transparent' : 'rgba(255,255,255,0.3)'), 
+                            color: index === 0 ? 'rgba(255,255,255,0.2)' : 'white', 
+                            cursor: index === 0 ? 'not-allowed' : 'pointer', 
+                            padding: '10px 14px', borderRadius: '8px', fontSize: '14px',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center'
                         }}
                     >▲</button>
                     <button 
-                        onClick={(e) => { e.stopPropagation(); movePlayerDown(index); }} 
+                        onClick={(e) => { e.preventDefault(); e.stopPropagation(); movePlayerDown(index); }} 
                         disabled={index === playingXI.length - 1}
                         style={{ 
-                            background: index === playingXI.length - 1 ? 'transparent' : 'rgba(255,255,255,0.1)', 
-                            border: 'none', color: index === playingXI.length - 1 ? 'rgba(255,255,255,0.2)' : 'white', 
-                            cursor: index === playingXI.length - 1 ? 'not-allowed' : 'pointer', padding: '2px 4px', borderRadius: '4px', fontSize: '10px' 
+                            background: index === playingXI.length - 1 ? 'transparent' : 'rgba(255,255,255,0.15)', 
+                            border: '1px solid ' + (index === playingXI.length - 1 ? 'transparent' : 'rgba(255,255,255,0.3)'), 
+                            color: index === playingXI.length - 1 ? 'rgba(255,255,255,0.2)' : 'white', 
+                            cursor: index === playingXI.length - 1 ? 'not-allowed' : 'pointer', 
+                            padding: '10px 14px', borderRadius: '8px', fontSize: '14px',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center'
                         }}
                     >▼</button>
                 </div>
