@@ -92,7 +92,7 @@ async function generate() {
     console.log("Fetching real player images from Wikipedia...");
     const players = [];
     
-    // We will generate 150 players total. 
+    // We will generate 220 players total. 
     // The first ~67 will be the real famous players with Wiki images.
     // The rest will be randomly generated to fill the pool.
 
@@ -133,7 +133,7 @@ async function generate() {
     const firstNames = ['Abhishek', 'Prabhsimran', 'Sai', 'Kartik', 'Ayush', 'Mohsin', 'Yash', 'Vidwath', 'Suyash', 'Nehal', 'Akash', 'Kumar', 'Mayank', 'Navdeep', 'Tushar', 'Vaibhav', 'Ramandeep', 'Anshul', 'Naman', 'Harshit', 'Vijaykumar', 'Manish', 'Kedar', 'Piyush', 'Amit', 'Ishant', 'Umesh', 'Sandeep', 'Mohit', 'Jaydev', 'Krunal', 'Deepak', 'Karn', 'Mandeep', 'Karun', 'Siddarth', 'Shahbaz', 'KS', 'Ricky', 'Samarth', 'Aryan', 'Raj', 'Yash', 'Darshan', 'Vivrant', 'Mayank', 'Upendra', 'Nishant', 'Sanvir', 'Hrithik', 'Yudhvir', 'Prerak', 'Manoj', 'Shashank', 'Ashutosh', 'Ramandeep', 'Sumit', 'Swastik', 'Angkrish', 'Abishek', 'Shivalik', 'Sameer', 'Naman', 'Saurav', 'Arshad', 'Piyush', 'Karthik', 'Praveen', 'Vidyadhar', 'Sachin', 'Ankit', 'Manav', 'Gaurav', 'Bhanu', 'Rohan', 'Guntash', 'Vipraj', 'Rohan', 'Aman', 'Himanshu', 'Prashant', 'Prakhar'];
     const lastNames = ['Singh', 'Sharma', 'Patel', 'Kumar', 'Yadav', 'Gupta', 'Iyer', 'Khan', 'Jain', 'Reddy', 'Rao', 'Nair', 'Menon', 'Pillai', 'Das', 'Sen', 'Bose', 'Chatterjee', 'Banerjee', 'Mukherjee', 'Ahuja', 'Kapur', 'Malhotra', 'Bhatia', 'Chopra', 'Sethi', 'Mehra', 'Tandon', 'Verma', 'Mishra', 'Pandey', 'Shukla', 'Dubey', 'Tiwari', 'Tripathi', 'Chauhan', 'Rajput', 'Rathore', 'Shekhawat', 'Gaikwad', 'Jadhav', 'Deshmukh', 'Patil', 'Kadam', 'Pawar', 'More', 'Chavan', 'Gowda', 'Shetty', 'Bhat', 'Hegde', 'Karanth', 'Kini', 'Shenoy', 'Baliga', 'Kamat', 'Prabhu', 'Bhandari', 'Poojary', 'Naik', 'Nayak', 'Rai', 'Chowdhury', 'Dutta', 'Sarkar', 'Ghosh'];
     
-    while(idCounter <= 150) {
+    while(idCounter <= 220) {
         const fn = firstNames[Math.floor(Math.random() * firstNames.length)];
         const ln = lastNames[Math.floor(Math.random() * lastNames.length)];
         const name = `${fn} ${ln}`;

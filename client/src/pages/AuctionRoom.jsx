@@ -316,6 +316,9 @@ export default function AuctionRoom() {
                     <button className="btn btn-gold" onClick={handleNextPlayer}>
                         Next {selectedCategory}
                     </button>
+                    <button className="btn" style={{ background: 'var(--accent-cyan)', color: 'white' }} onClick={() => socket.emit('recallUnsold', { roomId })}>
+                        Recall Unsold
+                    </button>
                     {roomState.auctionState === 'bidding' && (
                         <>
                         <button className="btn" style={{ background: 'var(--accent-red)', color: 'white' }} onClick={handleUnsold}>

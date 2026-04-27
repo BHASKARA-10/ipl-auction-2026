@@ -474,48 +474,53 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .join-options { grid-template-columns: 1fr; }
   .auction-layout { grid-template-columns: 1fr; }
-  .mobile-layout .player-name { font-size: 2rem; text-align: left; margin-bottom: 0.5rem; }
-  .mobile-layout .current-bid { font-size: 2.5rem; margin: 0.5rem 0; }
+  .mobile-layout .player-name { font-size: 2.5rem; text-align: center; margin-bottom: 0.5rem; line-height: 1.1; }
+  .mobile-layout .current-bid { font-size: 3rem; margin: 0.5rem 0; }
   .mobile-layout .timer { font-size: 2rem; margin-bottom: 0.5rem; }
-  .mobile-layout .btn-bid { font-size: 1.5rem !important; padding: 1rem !important; border-radius: 12px !important; }
+  .mobile-layout .btn-bid { font-size: 1.75rem !important; padding: 1.25rem !important; border-radius: 12px !important; }
   
   .player-card {
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem;
-    gap: 1rem;
-    align-items: stretch;
+    gap: 0.5rem;
+    align-items: center;
   }
   .player-image-container {
-    width: 140px;
-    height: 200px;
-    margin: 0;
+    width: 160px;
+    height: 220px;
+    margin: 0 auto;
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 16px;
   }
   .player-info {
-    width: auto;
+    width: 100%;
     flex: 1;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
   }
   .player-role {
     display: inline-block;
-    text-align: left;
-    margin: 0 0 0.5rem 0;
+    text-align: center;
+    margin: 0 auto 0.5rem auto;
     font-size: 1rem;
     padding: 0.2rem 0.5rem;
   }
   .stat-box {
-    margin: 0;
-    margin-bottom: 0.5rem;
+    margin: 0 auto 0.5rem auto;
+    width: 100%;
+    max-width: 250px;
   }
   .stat-box .stat-label { font-size: 0.7rem; }
-  .stat-box .stat-value { font-size: 1rem; }
+  .stat-box .stat-value { font-size: 1.2rem; }
   .bidding-area {
-    padding: 1rem;
-    border-radius: 12px;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 16px;
   }
   .highest-bidder {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 0.25rem 1rem;
     margin-bottom: 1rem;
   }

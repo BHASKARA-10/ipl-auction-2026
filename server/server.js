@@ -252,6 +252,24 @@ io.on('connection', (socket) => {
       }
   });
 
+  socket.on('recallUnsold', ({ roomId }) => {
+      const room = rooms[roomId];
+      if (room && room.admin.id === socket.id) {
+          let count = 0;
+          room.allPlayersStatus.forEach(p => {
+              if (p.status === 'unsold') {
+                  p.status = 'upcoming';
+                  if (room.categories[p.role]) {
+                      room.categories[p.role].push(p);
+                  }
+                  count++;
+              }
+          });
+          io.to(roomId).emit('roomUpdated', room);
+          io.to(roomId).emit('logMessage', `Admin recalled ${count} unsold players back to the auction pool!`);
+      }
+  });
+
   socket.on('disconnect', () => {
     console.log('User disconnected:', socket.id);
     for (const roomId in rooms) {
