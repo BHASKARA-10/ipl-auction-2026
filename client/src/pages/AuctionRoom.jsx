@@ -25,6 +25,8 @@ export default function AuctionRoom() {
   const [adminNoteInput, setAdminNoteInput] = useState('');
   const [activeNote, setActiveNote] = useState('');
   const [showChat, setShowChat] = useState(false);
+  const [chatMessages, setChatMessages] = useState([]);
+  const [lastBidAction, setLastBidAction] = useState(null);
 
   useEffect(() => {
     if (!roomState) {
@@ -62,11 +64,17 @@ export default function AuctionRoom() {
       setTimeout(() => setActiveNote(''), 5000);
     });
 
+    const handleChat = (msg) => {
+        setChatMessages(prev => [...prev, msg]);
+    };
+    socket.on('chatMessage', handleChat);
+
     return () => {
       socket.off('roomUpdated');
       socket.off('timerUpdate');
       socket.off('adminNote');
       socket.off('error');
+      socket.off('chatMessage', handleChat);
       socket.off('connect', handleConnect);
     };
   }, [navigate, roomState, role, currentUser, roomId]);
@@ -91,7 +99,11 @@ export default function AuctionRoom() {
 
   const handleWithdraw = () => { socket.emit('withdrawBid', { roomId }); };
 
-  const handleCustomBid = (increment) => { socket.emit('placeBid', { roomId, increment }); };
+  const handleCustomBid = (increment) => { 
+      socket.emit('placeBid', { roomId, increment }); 
+      setLastBidAction(increment);
+      setTimeout(() => setLastBidAction(null), 500);
+  };
 
   const playTickSound = () => {
       try {
@@ -142,7 +154,8 @@ export default function AuctionRoom() {
       }
   }
 
-  const canBid = canAfford && !squadFull && !foreignLimit;
+  const isHighestBidder = roomState.currentBidder === socket.id;
+  const canBid = canAfford && !squadFull && !foreignLimit && !isHighestBidder;
   const hasWithdrawn = !isAdmin && currentUser && roomState.withdrawnTeams?.includes(socket.id);
 
   // --- Components ---
@@ -182,7 +195,7 @@ export default function AuctionRoom() {
                 <div className="player-stats" style={{ gridTemplateColumns: '1fr', marginBottom: '2rem' }}>
                     <div className="stat-box" style={{ background: 'linear-gradient(45deg, rgba(236,72,153,0.2), transparent)', maxWidth: '300px' }}>
                         <div className="stat-label">Base Price</div>
-                        <div className="stat-value" style={{ color: 'var(--accent-gold)' }}>₹{formatMoney(player.basePrice)}</div>
+                        <div className="stat-value" style={{ color: 'var(--accent-gold)' }}>₹ {formatMoney(player.basePrice)}</div>
                     </div>
                 </div>
 
@@ -195,7 +208,7 @@ export default function AuctionRoom() {
                     Current Bid
                 </div>
                 <div className="current-bid" style={{ fontSize: '4rem' }}>
-                    ₹{formatMoney(roomState.currentBid)}
+                    ₹ {formatMoney(roomState.currentBid)}
                 </div>
                 <div className="highest-bidder">
                     Bidder: <strong style={{ color: 'white' }}>{currentBidderName}</strong>
@@ -204,13 +217,13 @@ export default function AuctionRoom() {
                 {!isAdmin && roomState.auctionState === 'bidding' && (
                     <div className="bid-button-container" style={{ width: '100%' }}>
                         <div className="bid-actions">
-                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(25)} disabled={!canBid || hasWithdrawn} style={{ opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem' }}>
+                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(25)} disabled={!canBid || hasWithdrawn} style={{ background: lastBidAction === 25 ? 'var(--accent-green)' : '', opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem', transition: 'background 0.2s' }}>
                                 +25L
                             </button>
-                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(50)} disabled={!canBid || hasWithdrawn} style={{ opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem' }}>
+                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(50)} disabled={!canBid || hasWithdrawn} style={{ background: lastBidAction === 50 ? 'var(--accent-green)' : '', opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem', transition: 'background 0.2s' }}>
                                 +50L
                             </button>
-                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(100)} disabled={!canBid || hasWithdrawn} style={{ opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem' }}>
+                            <button className="btn btn-gold btn-bid" onClick={() => handleCustomBid(100)} disabled={!canBid || hasWithdrawn} style={{ background: lastBidAction === 100 ? 'var(--accent-green)' : '', opacity: (!canBid || hasWithdrawn) ? 0.5 : 1, padding: '1rem', fontSize: '1.5rem', transition: 'background 0.2s' }}>
                                 +1Cr
                             </button>
                         </div>
@@ -219,10 +232,11 @@ export default function AuctionRoom() {
                                 WITHDRAW
                             </button>
                         )}
+                        {isHighestBidder && !hasWithdrawn && <div style={{ color: 'var(--accent-cyan)', marginTop: '0.5rem', fontWeight: 'bold' }}>You are the highest bidder!</div>}
                         {hasWithdrawn && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem', fontWeight: 'bold' }}>You have withdrawn from this player.</div>}
-                        {!canAfford && !hasWithdrawn && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Insufficient Funds</div>}
-                        {squadFull && !hasWithdrawn && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Squad Full</div>}
-                        {foreignLimit && !hasWithdrawn && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Overseas Limit Reached</div>}
+                        {!canAfford && !hasWithdrawn && !isHighestBidder && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Insufficient Funds</div>}
+                        {squadFull && !hasWithdrawn && !isHighestBidder && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Squad Full</div>}
+                        {foreignLimit && !hasWithdrawn && !isHighestBidder && <div style={{ color: 'var(--accent-red)', marginTop: '0.5rem' }}>Overseas Limit Reached</div>}
                     </div>
                 )}
                 </div>
@@ -322,7 +336,7 @@ export default function AuctionRoom() {
                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
                  title={`View ${teamUser.teamName} Squad`}
               >
-                 {teamUser.teamName}: ₹{formatMoney(teamUser.budget)}
+                 {teamUser.teamName}: ₹ {formatMoney(teamUser.budget)}
               </div>
            ))}
         </div>
@@ -387,7 +401,7 @@ export default function AuctionRoom() {
                     </div>
                     </div>
                     <div style={{ textAlign: 'right', fontWeight: 'bold', color: 'var(--accent-gold)' }}>
-                    ₹{formatMoney(user.budget)}
+                    ₹ {formatMoney(user.budget)}
                     </div>
                 </div>
                 ))}
@@ -434,7 +448,7 @@ export default function AuctionRoom() {
       {/* Chat Panel */}
       <AnimatePresence>
           {showChat && (
-              <ChatPanel roomId={roomId} currentUser={currentUser} role={role} onClose={() => setShowChat(false)} />
+              <ChatPanel roomId={roomId} currentUser={currentUser} role={role} messages={chatMessages} onClose={() => setShowChat(false)} />
           )}
       </AnimatePresence>
     </div>
@@ -442,18 +456,9 @@ export default function AuctionRoom() {
   );
 }
 
-function ChatPanel({ roomId, currentUser, role, onClose }) {
-    const [messages, setMessages] = useState([]);
+function ChatPanel({ roomId, currentUser, role, messages, onClose }) {
     const [input, setInput] = useState('');
     const messagesEndRef = useRef(null);
-
-    useEffect(() => {
-        const handleChat = (msg) => {
-            setMessages(prev => [...prev, msg]);
-        };
-        socket.on('chatMessage', handleChat);
-        return () => socket.off('chatMessage', handleChat);
-    }, []);
 
     useEffect(() => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -646,7 +651,7 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
                 <div style={{ fontWeight: 'bold', fontSize: '0.8rem' }}>{p.name}</div>
                 <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>{p.role}</div>
             </div>
-            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)' }}>₹{formatMoney(p.soldPrice)}</div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)' }}>₹ {formatMoney(p.soldPrice)}</div>
             {from === 'XI' && isCurrentUser && (
                 <div style={{ display: 'flex', flexDirection: 'row', gap: '8px', marginLeft: '0.5rem' }}>
                     <button 
@@ -685,7 +690,7 @@ function TeamSquadModal({ user, onClose, isCurrentUser, roomId }) {
                     <div>
                         <h2 style={{ margin: 0, color: 'var(--accent-gold)' }}>{user.teamName} Squad Builder</h2>
                         <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
-                            Budget Remaining: ₹{formatMoney(user.budget)} | Squad Size: {user.squad.length}
+                            Budget Remaining: ₹ {formatMoney(user.budget)} | Squad Size: {user.squad.length}
                         </div>
                     </div>
                     <button onClick={onClose} style={{ background: 'transparent', border: 'none', color: 'white', cursor: 'pointer' }}><X size={24} /></button>
@@ -779,14 +784,14 @@ function PlayerDatabaseModal({ players, onClose }) {
                                     <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{p.name}</td>
                                     <td style={{ padding: '0.75rem 0.5rem', color: 'var(--text-secondary)' }}>{p.role}</td>
                                     <td style={{ padding: '0.75rem 0.5rem' }}>{p.nationality}</td>
-                                    <td style={{ padding: '0.75rem 0.5rem' }}>₹{formatMoney(p.basePrice)}</td>
+                                    <td style={{ padding: '0.75rem 0.5rem' }}>₹ {formatMoney(p.basePrice)}</td>
                                     <td style={{ padding: '0.75rem 0.5rem' }}>
                                         {p.status === 'sold' && <span style={{ color: 'var(--accent-green)', fontWeight: 'bold' }}>SOLD</span>}
                                         {p.status === 'unsold' && <span style={{ color: 'var(--accent-red)', fontWeight: 'bold' }}>UNSOLD</span>}
                                         {p.status === 'upcoming' && <span style={{ color: 'var(--accent-blue)' }}>UPCOMING</span>}
                                     </td>
                                     <td style={{ padding: '0.75rem 0.5rem', fontWeight: 'bold' }}>{p.soldTo || '-'}</td>
-                                    <td style={{ padding: '0.75rem 0.5rem', color: 'var(--accent-gold)' }}>{p.soldPrice ? `₹${formatMoney(p.soldPrice)}` : '-'}</td>
+                                    <td style={{ padding: '0.75rem 0.5rem', color: 'var(--accent-gold)' }}>{p.soldPrice ? `₹ ${formatMoney(p.soldPrice)}` : '-'}</td>
                                 </tr>
                             ))}
                         </tbody>

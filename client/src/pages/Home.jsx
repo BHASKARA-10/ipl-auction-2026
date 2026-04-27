@@ -8,7 +8,7 @@ export default function Home() {
   const currentUser = JSON.parse(localStorage.getItem('currentUser') || 'null');
   
   const [adminName, setAdminName] = useState(currentUser?.name || '');
-  const [budget, setBudget] = useState(10000);
+  const [budget, setBudget] = useState(100);
   const [maxSquad, setMaxSquad] = useState(25);
   const [maxForeign, setMaxForeign] = useState(8);
   
@@ -37,7 +37,7 @@ export default function Home() {
   const handleCreateRoom = (e) => {
     e.preventDefault();
     if (adminName) {
-      const rules = { budget: Number(budget), maxSquad: Number(maxSquad), maxForeign: Number(maxForeign) };
+      const rules = { budget: Number(budget) * 100, maxSquad: Number(maxSquad), maxForeign: Number(maxForeign) };
       socket.emit('createRoom', { adminName, rules });
       socket.once('roomCreated', ({ roomId, roomState }) => {
         navigate(`/room/${roomId}/lobby`, { state: { role: 'admin', room: roomState } });
@@ -86,17 +86,17 @@ export default function Home() {
               />
             </div>
             <div className="form-group">
-              <label><IndianRupee size={14} style={{verticalAlign: 'middle'}}/> Purse per Team (Lakhs)</label>
+              <label><IndianRupee size={14} style={{verticalAlign: 'middle'}}/> Purse per Team (Crores)</label>
               <input 
                 type="number" 
                 className="form-control" 
                 value={budget} 
                 onChange={(e) => setBudget(e.target.value)} 
-                min="1000"
-                step="100"
+                min="10"
+                step="5"
                 required 
               />
-              <small style={{ color: 'var(--text-secondary)' }}>e.g. 10000 = 100 Crores</small>
+              <small style={{ color: 'var(--text-secondary)' }}>e.g. 100 = 100 Crores</small>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                 <div className="form-group">
