@@ -73,11 +73,10 @@ export default function AuctionRoom() {
           const ctx = new AudioContext();
           const osc = ctx.createOscillator();
           const gainNode = ctx.createGain();
-          osc.type = 'sine';
-          osc.frequency.setValueAtTime(600, ctx.currentTime);
-          osc.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.1);
-          gainNode.gain.setValueAtTime(0.3, ctx.currentTime);
-          gainNode.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.1);
+          osc.type = 'square';
+          osc.frequency.setValueAtTime(1000, ctx.currentTime);
+          gainNode.gain.setValueAtTime(0.1, ctx.currentTime);
+          gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.1);
           osc.connect(gainNode);
           gainNode.connect(ctx.destination);
           osc.start();
@@ -247,7 +246,18 @@ export default function AuctionRoom() {
              </div>
           )}
           {isAdmin && (
-             <div style={{ textAlign: 'right', display: 'flex', gap: '1rem' }}>
+             <div style={{ textAlign: 'right', display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                <div style={{ display: 'flex', background: 'rgba(0,0,0,0.5)', borderRadius: '8px', padding: '0.25rem', border: '1px solid rgba(255,255,255,0.1)' }}>
+                    <input 
+                        type="text" 
+                        placeholder="Broadcast Note..." 
+                        value={adminNoteInput}
+                        onChange={(e) => setAdminNoteInput(e.target.value)}
+                        onKeyDown={(e) => { if(e.key === 'Enter') handleSendNote(); }}
+                        style={{ background: 'transparent', border: 'none', color: 'white', padding: '0.5rem', outline: 'none', width: '200px' }}
+                    />
+                    <button onClick={handleSendNote} style={{ background: 'var(--accent-pink)', border: 'none', borderRadius: '4px', padding: '0 1rem', color: 'white', cursor: 'pointer', fontWeight: 'bold' }}>SEND</button>
+                </div>
                 <button className="btn" style={{ background: 'var(--accent-gold)', color: '#451a03' }} onClick={() => setShowLeaderboard(true)}>
                   <Trophy size={20} /> Winner Engine
                 </button>
@@ -303,18 +313,6 @@ export default function AuctionRoom() {
                 ))}
                 
                 <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-                    <div style={{ display: 'flex', background: 'rgba(0,0,0,0.5)', borderRadius: '8px', padding: '0.25rem', border: '1px solid rgba(255,255,255,0.1)', marginRight: '1rem' }}>
-                        <input 
-                            type="text" 
-                            placeholder="Broadcast Note..." 
-                            value={adminNoteInput}
-                            onChange={(e) => setAdminNoteInput(e.target.value)}
-                            onKeyDown={(e) => { if(e.key === 'Enter') handleSendNote(); }}
-                            style={{ background: 'transparent', border: 'none', color: 'white', padding: '0.5rem', outline: 'none', width: '200px' }}
-                        />
-                        <button onClick={handleSendNote} style={{ background: 'var(--accent-pink)', border: 'none', borderRadius: '4px', padding: '0 1rem', color: 'white', cursor: 'pointer', fontWeight: 'bold' }}>SEND</button>
-                    </div>
-
                     <button className="btn btn-gold" onClick={handleNextPlayer}>
                         Next {selectedCategory}
                     </button>
@@ -366,9 +364,9 @@ export default function AuctionRoom() {
             </div>
             </div>
 
-            <div className="glass-panel" style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <div className="glass-panel" style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '300px' }}>
             <h3 style={{ marginBottom: '1rem' }}>Activity Log</h3>
-            <div className="logs-container">
+            <div className="logs-container" style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <LogViewer roomId={roomId} />
             </div>
             </div>

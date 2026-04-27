@@ -244,6 +244,14 @@ io.on('connection', (socket) => {
       }
   });
 
+  socket.on('updatePlayingXI', ({ roomId, playingXI }) => {
+      const room = rooms[roomId];
+      if (room && room.users[socket.id]) {
+          room.users[socket.id].playingXI = playingXI;
+          io.to(roomId).emit('roomUpdated', room);
+      }
+  });
+
   socket.on('disconnect', () => {
     console.log('User disconnected:', socket.id);
     for (const roomId in rooms) {
