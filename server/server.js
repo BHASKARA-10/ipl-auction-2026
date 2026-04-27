@@ -78,6 +78,7 @@ io.on('connection', (socket) => {
       auctionState: 'lobby', // lobby, bidding, sold, unsold
       currentBid: 0,
       currentBidder: null,
+      withdrawnTeams: [],
       timer: 15,
       logs: [],
     };
@@ -182,6 +183,7 @@ io.on('connection', (socket) => {
         room.auctionState = 'bidding';
         room.currentBid = 0; 
         room.currentBidder = null;
+        room.withdrawnTeams = [];
         room.timer = 15;
         
         io.to(roomId).emit('roomUpdated', room);
@@ -193,7 +195,7 @@ io.on('connection', (socket) => {
   });
 
   // User places a bid
-  socket.on('placeBid', ({ roomId }) => {
+  socket.on('placeBid', ({ roomId, increment }) => {
     const room = rooms[roomId];
     if (room && room.auctionState === 'bidding') {
       const user = room.users[socket.id];
@@ -211,7 +213,12 @@ io.on('connection', (socket) => {
           return;
       }
 
-      let newBidAmount = getNextBid(room.currentBid, player.basePrice);
+      let newBidAmount = 0;
+      if (room.currentBid === 0) {
+          newBidAmount = player.basePrice;
+      } else {
+          newBidAmount = room.currentBid + (increment || 0);
+      }
 
       if (user.budget >= newBidAmount) {
         room.currentBid = newBidAmount;
@@ -224,6 +231,27 @@ io.on('connection', (socket) => {
         socket.emit('error', 'Insufficient budget!');
       }
     }
+  });
+
+  // Team withdraws from bidding
+  socket.on('withdrawBid', ({ roomId }) => {
+      const room = rooms[roomId];
+      if (room && room.auctionState === 'bidding') {
+          const user = room.users[socket.id];
+          if (user && !room.withdrawnTeams.includes(socket.id)) {
+              room.withdrawnTeams.push(socket.id);
+              io.to(roomId).emit('roomUpdated', room);
+              io.to(roomId).emit('logMessage', `${user.teamName} has withdrawn from bidding.`);
+
+              const activeTeamCount = Object.values(room.users).filter(u => u.connected).length;
+              const targetWithdrawals = room.currentBidder ? activeTeamCount - 1 : activeTeamCount;
+              
+              if (room.withdrawnTeams.length >= targetWithdrawals && activeTeamCount > 0) {
+                  io.to(roomId).emit('logMessage', 'All eligible teams have withdrawn. Processing player...');
+                  sellCurrentPlayer(roomId);
+              }
+          }
+      }
   });
 
   // Admin manually sells player
@@ -264,6 +292,22 @@ io.on('connection', (socket) => {
       if (room && room.users[socket.id]) {
           room.users[socket.id].playingXI = playingXI;
           io.to(roomId).emit('roomUpdated', room);
+      }
+  });
+
+  socket.on('chatMessage', ({ roomId, text }) => {
+      const room = rooms[roomId];
+      if (room) {
+          let senderName = 'Unknown';
+          let role = 'team';
+          if (room.admin.id === socket.id) {
+              senderName = 'Auctioneer';
+              role = 'admin';
+          } else if (room.users[socket.id]) {
+              senderName = room.users[socket.id].teamName;
+              role = 'team';
+          }
+          io.to(roomId).emit('chatMessage', { sender: senderName, text, role, time: new Date().toLocaleTimeString() });
       }
   });
 

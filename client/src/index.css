@@ -470,6 +470,118 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-col .player-name { font-size: 3.5rem; text-align: center; }
 .mobile-col .current-bid { font-size: 4.5rem; }
 
+/* Chat Panel */
+.chat-button-fixed {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-pink), var(--accent-cyan));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.4);
+  cursor: pointer;
+  z-index: 1000;
+  border: none;
+  color: white;
+  transition: transform 0.2s;
+}
+.chat-button-fixed:hover { transform: scale(1.1); }
+
+.chat-panel {
+  position: fixed;
+  bottom: 6rem;
+  right: 2rem;
+  width: 350px;
+  height: 500px;
+  background: var(--panel-bg);
+  border: 2px solid var(--accent-cyan);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+.chat-header {
+  background: rgba(6, 182, 212, 0.2);
+  padding: 1rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(6, 182, 212, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chat-message {
+  background: rgba(255,255,255,0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.chat-message.admin-msg {
+  background: rgba(251, 191, 36, 0.1);
+  border-left: 3px solid var(--accent-gold);
+}
+.chat-message.self-msg {
+  background: rgba(6, 182, 212, 0.1);
+  border-right: 3px solid var(--accent-cyan);
+  text-align: right;
+}
+
+.chat-input-area {
+  display: flex;
+  padding: 0.5rem;
+  background: rgba(0,0,0,0.4);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.chat-input-area input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  outline: none;
+}
+
+/* Bid Actions */
+.bid-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.btn-withdraw {
+  background: linear-gradient(to bottom, #ef4444, #991b1b) !important;
+  box-shadow: 0 4px 0 #7f1d1d, 0 10px 20px rgba(239, 68, 68, 0.4) !important;
+  font-size: 1.5rem !important;
+  padding: 1rem !important;
+  margin-top: 0.5rem;
+  width: 100%;
+  color: white !important;
+}
+.btn-withdraw:active {
+  transform: translateY(4px) !important;
+  box-shadow: 0 0 0 #7f1d1d !important;
+}
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
   .join-options { grid-template-columns: 1fr; }
