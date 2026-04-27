@@ -109,10 +109,7 @@ async function generate() {
 
         // Fallback generic silhouette if completely unfound
         if (!imageUrl) {
-            const colors = {
-                'Batter': '1e3a8a', 'Bowler': '166534', 'All-Rounder': '854d0e', 'Wicket Keeper': '991b1b'
-            };
-            imageUrl = `https://ui-avatars.com/api/?name=${fp.name.replace(' ', '+')}&background=${colors[fp.role]}&color=fff&size=500`;
+            imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png';
         }
 
         let bp = fp.name === "Virat Kohli" || fp.name === "MS Dhoni" || fp.name === "Pat Cummins" || fp.name === "Mitchell Starc" ? 200 : 100;
@@ -143,8 +140,7 @@ async function generate() {
         
         const roles = ['Batter', 'Bowler', 'All-Rounder', 'Wicket Keeper'];
         const role = roles[Math.floor(Math.random() * roles.length)];
-        const colors = {'Batter': '1e3a8a', 'Bowler': '166534', 'All-Rounder': '854d0e', 'Wicket Keeper': '991b1b'};
-        const imageUrl = `https://ui-avatars.com/api/?name=${name.replace(' ', '+')}&background=${colors[role]}&color=fff&size=500`;
+        const imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png';
 
         players.push({
             id: idCounter++,

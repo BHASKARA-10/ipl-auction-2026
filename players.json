@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 200,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/500px-Virat_Kohli_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 2,
+    "name": "MS Dhoni",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 200,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg/500px-MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rohit Sharma",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg/500px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jasprit_Bumrah_in_PMO_New_Delhi.jpg/500px-Jasprit_Bumrah_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hardik Pandya",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hardik_Pandya_in_PMO_New_Delhi.jpg/500px-Hardik_Pandya_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ravindra Jadeja",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/PM_Shri_Narendra_Modi_with_Ravindra_Jadeja_%28Cropped%29.jpg"
+  },
+  {
+    "id": 7,
+    "name": "KL Rahul",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/KL_Rahul_at_Femina_Miss_India_2018_Grand_Finale_%28cropped%29.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Suryakumar Yadav",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Suryakumar_Yadav_in_PMO_New_Delhi.jpg/500px-Suryakumar_Yadav_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Rishabh Pant",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rishabh_Pant.jpg/500px-Rishabh_Pant.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Shubman Gill",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Shubman-Gill.jpg/500px-Shubman-Gill.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pat Cummins",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 200,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Pat_Cummins_fielding_Ashes_2021_%28cropped%29.jpg/500px-Pat_Cummins_fielding_Ashes_2021_%28cropped%29.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mitchell Starc",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Mitchell_Starc_2023.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Glenn Maxwell",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Glen_Maxwell_2026_%28cropped%29.jpg/500px-Glen_Maxwell_2026_%28cropped%29.jpg"
+  },
+  {
+    "id": 14,
+    "name": "David Warner",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/DAVID_WARNER_%2811704782453%29.jpg/500px-DAVID_WARNER_%2811704782453%29.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Steve Smith",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/STEVE_SMITH_%2811705303043%29.jpg/500px-STEVE_SMITH_%2811705303043%29.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Travis Head",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Travis_Head_bowling_at_Perth_Stadium%2C_First_Test_Australia_versus_West_Indies%2C_2_December_2022_03_%28cropped%29.jpg/500px-Travis_Head_bowling_at_Perth_Stadium%2C_First_Test_Australia_versus_West_Indies%2C_2_December_2022_03_%28cropped%29.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Kane Williamson",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Kane_Williamson_in_2019.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Trent Boult",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg/500px-2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings%2C_SCG_%2839533156665%29.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Rachin Ravindra",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rachin_Ravindra.jpg/500px-Rachin_Ravindra.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Ben Stokes",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/3_14_Captain_Ben_%28cropped%29.jpg/500px-3_14_Captain_Ben_%28cropped%29.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Jos Buttler",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jos_Buttler_in_2023.jpg/500px-Jos_Buttler_in_2023.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jofra_Archer_%283%29.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Jonny Bairstow",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2_05_Bairstow_out.jpg/500px-2_05_Bairstow_out.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Joe Root",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Joe_Root_HIP1487_%28cropped%29.jpg/500px-Joe_Root_HIP1487_%28cropped%29.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Kagiso Rabada",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rabada.jpg/500px-Rabada.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Quinton de Kock",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/QUINTON_DE_KOCK_%2815681398316%29.jpg/500px-QUINTON_DE_KOCK_%2815681398316%29.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Heinrich Klaasen",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 28,
+    "name": "David Miller",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 29,
+    "name": "Rashid Khan",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rashid_Khan.jpg/500px-Rashid_Khan.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Sunil Narine",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sunil_Narine.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Andre Russell",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Andre_Russell_%281%29.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Nicholas Pooran",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 33,
+    "name": "Shakib Al Hasan",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Shakib_Al_Hasan_%284%29_%28cropped%29.jpg/500px-Shakib_Al_Hasan_%284%29_%28cropped%29.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 35,
+    "name": "Wanindu Hasaranga",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Waniya.jpg/500px-Waniya.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Shreyas Iyer",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Shreyas_Iyer_snapped_at_the_airport_%28Cropped%29.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Mohammed Shami",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg/500px-Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Mohammed Siraj",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Mohammad_Siraj_%28cropped%29.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Ishan Kishan",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ishan_Kishan.jpg/500px-Ishan_Kishan.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Sanju Samson",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sanju_Samson_in_PMO_New_Delhi.jpg/500px-Sanju_Samson_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Rinku Singh",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 42,
+    "name": "Yashasvi Jaiswal",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg/500px-Yashasvi_Jaiswal_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Arshdeep Singh",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg/500px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Arshdeep_Singh_Family_%28Cropped%29.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Axar Patel",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Axar_Patel_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Yuzvendra Chahal",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yuzvendra_Chahal_in_PMO_New_Delhi.jpg/500px-Yuzvendra_Chahal_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kuldeep_Yadav_in_PMO_New_Delhi.jpg/500px-Kuldeep_Yadav_in_PMO_New_Delhi.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Ruturaj Gaikwad",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ruturaj_Gaikwad.jpeg"
+  },
+  {
+    "id": 48,
+    "name": "Washington Sundar",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Washington_Sundar.jpg/500px-Washington_Sundar.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Ravi Ashwin",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 50,
+    "name": "Cameron Green",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg/500px-Cameron_Green_fielding_Boxing_Day_2022_%28cropped%29.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Marcus Stoinis",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg/500px-2018.01.21.15.22.25-Stoinis_%2839081521620%29.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2018_Josh_Hazlewood_%28cropped%29.jpg/500px-2018_Josh_Hazlewood_%28cropped%29.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Mitch Marsh",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 54,
+    "name": "Sam Curran",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Prime_Minister_welcomes_the_World_Cup_winning_cricketers_%2852764650104%29_-_Sam_Curran_%28cropped%29.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Liam Livingstone",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 56,
+    "name": "Mark Wood",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Mark_wood_bowling_boxing_day_test.jpg/500px-Mark_wood_bowling_boxing_day_test.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Anrich Nortje",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 58,
+    "name": "Aiden Markram",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aiden_Markram_%28cropped%29.jpg/500px-Aiden_Markram_%28cropped%29.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Marco Jansen",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Marco_Jansen_2022.jpg/500px-Marco_Jansen_2022.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Rahmanullah Gurbaz",
+    "role": "Wicket Keeper",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 61,
+    "name": "Mujeeb Ur Rahman",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Mujeeb_Ur_Rahman_celebrating.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Naveen-ul-Haq",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 63,
+    "name": "Rovman Powell",
+    "role": "Batter",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 64,
+    "name": "Alzarri Joseph",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 65,
+    "name": "Jason Holder",
+    "role": "All-Rounder",
+    "nationality": "Overseas",
+    "basePrice": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jason_Holder.jpg/500px-Jason_Holder.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 67,
+    "name": "Mustafizur Rahman",
+    "role": "Bowler",
+    "nationality": "Overseas",
+    "basePrice": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mustafizur_Rahman_%284%29_%28cropped%29.jpg/500px-Mustafizur_Rahman_%284%29_%28cropped%29.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Krunal Pawar",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 69,
+    "name": "Kartik Rajput",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 70,
+    "name": "Shahbaz Shekhawat",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 71,
+    "name": "Shahbaz Verma",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 72,
+    "name": "Vivrant Banerjee",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 73,
+    "name": "Shashank Kadam",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 74,
+    "name": "Vaibhav Pandey",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 75,
+    "name": "Ramandeep Jadhav",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 76,
+    "name": "Mohit Bhat",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 77,
+    "name": "Nehal Chowdhury",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 78,
+    "name": "Ricky Sharma",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 79,
+    "name": "Piyush Nair",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 80,
+    "name": "Ishant Pandey",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 81,
+    "name": "Sai Hegde",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 82,
+    "name": "Aman Chavan",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 83,
+    "name": "Vipraj Pillai",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 84,
+    "name": "Shashank Gowda",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 85,
+    "name": "Aryan Chopra",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 86,
+    "name": "Siddarth Chowdhury",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 87,
+    "name": "Gaurav Gaikwad",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 88,
+    "name": "Bhanu Dubey",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 89,
+    "name": "Ankit Banerjee",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 90,
+    "name": "Yudhvir Gaikwad",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 91,
+    "name": "Rohan Mukherjee",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 92,
+    "name": "Ramandeep Bhat",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 93,
+    "name": "Vidwath Kumar",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 94,
+    "name": "Piyush Kumar",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 95,
+    "name": "Kumar Gowda",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 96,
+    "name": "Sameer Kadam",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 97,
+    "name": "Shashank Kadam",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 98,
+    "name": "Sai Ahuja",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 99,
+    "name": "Rohan Gaikwad",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 100,
+    "name": "Sumit Tandon",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 101,
+    "name": "Karn Tripathi",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 102,
+    "name": "Prerak Patel",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 103,
+    "name": "Praveen Tiwari",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 104,
+    "name": "Vaibhav Kadam",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 105,
+    "name": "Samarth Shekhawat",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 106,
+    "name": "Vivrant Tripathi",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 107,
+    "name": "Rohan Bose",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 108,
+    "name": "Yudhvir Hegde",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 109,
+    "name": "Manav Das",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 110,
+    "name": "Prabhsimran Banerjee",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 111,
+    "name": "Abishek Jain",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 112,
+    "name": "Akash Gupta",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 113,
+    "name": "Prakhar Tandon",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 114,
+    "name": "Mandeep Bose",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 115,
+    "name": "Ashutosh Tripathi",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 116,
+    "name": "Kedar Chopra",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 117,
+    "name": "Himanshu Kini",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 118,
+    "name": "Ramandeep Sharma",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 119,
+    "name": "Yudhvir Nair",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 120,
+    "name": "Vijaykumar Kadam",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 121,
+    "name": "Jaydev Iyer",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 122,
+    "name": "Mayank Iyer",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 123,
+    "name": "Aman Jain",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 124,
+    "name": "Sai Gupta",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 125,
+    "name": "Prabhsimran Gupta",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 126,
+    "name": "Ramandeep Kini",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 127,
+    "name": "Prabhsimran Patel",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 128,
+    "name": "Anshul Chauhan",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 129,
+    "name": "Vivrant Rao",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 130,
+    "name": "Raj Banerjee",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 131,
+    "name": "Umesh Chatterjee",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 132,
+    "name": "Rohan Kamat",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 133,
+    "name": "Sai Banerjee",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 134,
+    "name": "Manish Tripathi",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 135,
+    "name": "Karun Reddy",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 136,
+    "name": "Prashant Banerjee",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 137,
+    "name": "Umesh Bhat",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 138,
+    "name": "Vidwath Kadam",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 139,
+    "name": "Samarth Dutta",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 140,
+    "name": "Akash Bhatia",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 141,
+    "name": "Kartik Tripathi",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 142,
+    "name": "Ayush Kamat",
+    "role": "Bowler",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 143,
+    "name": "Aman Pillai",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 144,
+    "name": "Saurav Patil",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 145,
+    "name": "Rohan Kumar",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 146,
+    "name": "Rohan Sen",
+    "role": "All-Rounder",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 147,
+    "name": "Aman Shenoy",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 148,
+    "name": "Raj Singh",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 149,
+    "name": "Kumar Mehra",
+    "role": "Wicket Keeper",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  {
+    "id": 150,
+    "name": "Mohit Pawar",
+    "role": "Batter",
+    "nationality": "Indian",
+    "basePrice": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  }
+]

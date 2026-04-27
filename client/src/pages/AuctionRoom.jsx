@@ -364,9 +364,9 @@ export default function AuctionRoom() {
             </div>
             </div>
 
-            <div className="glass-panel" style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '300px' }}>
+            <div className="glass-panel" style={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: '400px' }}>
             <h3 style={{ marginBottom: '1rem' }}>Activity Log</h3>
-            <div className="logs-container" style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <div className="logs-container" style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem', paddingRight: '0.5rem' }}>
                 <LogViewer roomId={roomId} />
             </div>
             </div>
